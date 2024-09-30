@@ -1,41 +1,40 @@
-# Nombre del laboratorio 
+# Práctica 2. Creación de visualizaciones básicas
 
 ## Objetivo de la práctica:
+
 Al finalizar la práctica, serás capaz de:
-- Objetivo1
-- Objetivo2
-- Objetivo3
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
-
-![diagrama1](../images/img1.png)
+- Desarrollar habilidades en la creación de visualizaciones básicas en Tableau Desktop para analizar datos de ventas de la empresa Retallink. <br>
+- Aprender a seleccionar el tipo de gráfico adecuado, personalizar visualizaciones y extraer conclusiones clave a partir de los datos.
 
 ## Duración aproximada:
-- xx minutos.
+- 210 minutos.
 
 ## Tabla de ayuda:
-Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
-| Contraseña | Correo | Código |
-| --- | --- | ---|
-| Netec2024 | edgardo@netec.com | 123abc |
 
-## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+Se requiere:
 
-Paso 2. <!-- Añadir instrucción -->
+- Cantidad de Toneladas por Cliente. <br>
+- Cantidad de Toneladas por Empresa. <br>
+- Cantidad de Tonelada de Clientes por Fruta. <br>
+- Ganancias de Exportación por País. <br>
+- % de las Ganancias de los Países del Monto Total. <br>
+- % de las Exportaciones en Toneladas por País. <br>
 
-Paso 3. <!-- Añadir instrucción -->
+## Instrucciones:
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+**Paso 1.** Es momento de organizar la data por lo cual, debes crear una carpeta dentro de equipo de cómputo donde organices de la siguiente manera los archivos:
 
-Paso 2. <!-- Añadir instrucción -->
+![imagen4](../images/4.png)
 
-Paso 3. <!-- Añadir instrucción -->
+**Paso 2.** Lo primero es organizar tu archivo para que, posteriormente, crees la conexión de nuestra data a la aplicación de Tableau.
 
-### Resultado esperado
-En esta sección se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
+**Paso 3.** Conecta los distintos archivos de data que tienes en desarrollo. 
+
+**Paso 4.** Abre la aplicación de Tableau Desktop y dirígete a la primera pantalla, justo donde letrero de **CONECTAR**.
+
+**Paso 5.** Primero, conecta la data generada en Excel (Data Exportaciones).
+
+**Paso 6.** Presiona **Abrir**.
+
+
