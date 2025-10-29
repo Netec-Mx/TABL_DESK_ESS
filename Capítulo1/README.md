@@ -52,7 +52,7 @@ Después de seleccionar Muestra - Supertienda, su pantalla tendrá este aspecto:
 
 El conjunto de datos Muestra - Supertienda se suministra con Tableau. Contiene información sobre productos, ventas, ganancias, etc. que puede utilizar para identificar áreas clave para su mejora dentro de esta compañía ficticia.
 
-###¿Qué hace Tableau con los datos?
+#### ¿Qué hace Tableau con los datos?
 
 Después de conectarse a los datos, Tableau procede del modo siguiente:
 
