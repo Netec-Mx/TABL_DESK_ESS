@@ -21,7 +21,7 @@ Su jefa le pidió que mirara las ventas y la rentabilidad general de la empresa 
 
 Lo primero que ve después de abrir Tableau Desktop es la página de inicio. Aquí puede seleccionar el conector (el modo en que se conectará a los datos) que quiera utilizar.
 
-<img src="../images/01/01.png" width="500" >
+<img src="../images/01/01.png" width="900" >
 
 La página de inicio ofrece varias opciones entre las que elegir:
 
@@ -47,7 +47,7 @@ En el panel Conectar, en Fuentes de datos guardadas, haga clic en Muestra - Supe
 
 Después de seleccionar Muestra - Supertienda, su pantalla tendrá este aspecto:
 
-<img src="../images/01/04.png" width="500" >
+<img src="../images/01/04.png" width="900" >
 
 El conjunto de datos Muestra - Supertienda se suministra con Tableau. Contiene información sobre productos, ventas, ganancias, etc. que puede utilizar para identificar áreas clave para su mejora dentro de esta compañía ficticia.
 
