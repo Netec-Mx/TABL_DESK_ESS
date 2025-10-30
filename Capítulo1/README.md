@@ -6,7 +6,6 @@ Al finalizar la práctica, serás capaz de:
 2. Visualizar la página de “Conectar” en Tableau, elegir un conector y vincular el conjunto de datos “Muestra - Supertienda”. 
 3. Ver la interfaz de fuente de datos: observar la hoja de trabajo en blanco, la lista de campos, los tipos de dato y roles que asigna automáticamente Tableau. 
 
-https://help.tableau.com/current/guides/get-started-tutorial/es-es/get-started-tutorial-connect.htm 
 ## Objetivo Visual 
 
 <img src="../images/01/00.png" width="500" >
