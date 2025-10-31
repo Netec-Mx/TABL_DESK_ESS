@@ -20,16 +20,17 @@ Al finalizar la práctica, serás capaz de:
 
 ## Instrucciones 
 
-### Tarea 1. Analisis de datos
+### Tarea 1. Conexión y Preparación de Datos
 
 1. Para este primer ejercicio es necesario descargar el material de la carpeta de nombre Primer Proyecto / Data, mismo que ya tiene en su alcance con el material que se les proporciono. 
 
 2. Lo primero que vamos a realizar es analizar la data que se nos está proporcionando y realizar nuestra primera inspección de limpieza de datos:
 
+<img src="../images/08/01.png"  >
 <img src="../images/08/02.png"  >
 <img src="../images/08/03.png"  >
 
-### Tarea 2. Desarrollar un dashboard
+### Tarea 2. Limpieza de datos
 
 *Objetivo:* Desarrollar una Dashboard que nos permita analizar la cantidad de Toneladas de fruta que se han exportado a los clientes de distintos países.
 
@@ -45,6 +46,7 @@ Al finalizar la práctica, serás capaz de:
 
 
 Ya que conocemos el objetivo y los puntos que nos están solicitado, es momento de organizar la data por lo cual te pido crear una carpeta dentro de equipo de cómputo donde organicemos de la siguiente manera los archivos:
+
 <img src="../images/08/05.png"  >
 
 Lo primero es organizar nuestro archivo para posterior mente a esto ahora si vamos a crear nuestra conexión de nuestra data a nuestra aplicación Tableau.
@@ -73,16 +75,20 @@ Ya que seleccionamos el tipo de data como texto, seleccionaremos nuestro texto f
 
 
 Realicemos el mismo proceso que realizamos con nuestra data de Excel, arrastremos a nuestra paleta de trabajo y observemos que en automático de nuevo crea esta relación de información.
+
 <img src="../images/08/11.jpg"  >
 
 Llego el momento de unir nuestra última data el CSV de nombre Empresas a nuestro proyecto en Tableau. 
+
 <img src="../images/08/12.jpg"  >
 
 
 Ya que dimos clic sobre data CSV , seleccionamos la carpeta empresas y damos clic sobre el archivo Empresas.
+
 <img src="../images/08/13.jpg"  >
 
 Llego el momento crear esta conexión de datos, vamos a arrastrar nuestro archivo y observemos que sucede, este archivo debemos de enlazarlo directo a nuestro archivo principal.
+
 <img src="../images/08/14.jpg"  >
 
 Si observamos bien nos presenta un error al realizar nuestra relación , no identifica que campos unir, aquí la importancia de conocer nuestra data con la que vamos a trabajar para brinda una estructura correcta en esta primera fase y muy importante porque es nuestro cimiento de nuestro Dashboard.
@@ -98,6 +104,7 @@ Vamos a irnos a la pestaña de Hoja1 y vamos a seleccionar de nuestros datos DAT
 <img src="../images/08/16.jpg"  >
 
 Ya que estamos en nuestra pestaña de fuente de datos, vamos a dar clic en añadir filtros.
+
 <img src="../images/08/17.jpg"  >
 
 Nos aparecerá la pantalla donde podemos aplicar los filtros, presionaremos en el botón añadir, nos aparecerán los distintos campos en los cuales podemos crear el filtrado, seleccionaremos CANTIDAD KG, esto nos activara un filtro de cantidades numérica en las cuales podemos coocar las diferentes variables.
@@ -105,10 +112,11 @@ Nos aparecerá la pantalla donde podemos aplicar los filtros, presionaremos en e
 <img src="../images/08/18.jpg"  >
 
 Ahora apliquemos otro filtro, pero a nivel producto, seleccionaremos el campo FRUTAS, observemos que en automático nos aparece los distintos tipos de fruta a seleccionar de nuestro catálogo, para este ejercicio dejare sin seleccionar Palta y Plátano , lo que el filtro hará es solo darme el total de KG de esas frutas que seleccionamos.
+
 <img src="../images/08/19.jpg"  >
 
-
 Justo si queremos visualizar este dato más a detallado y validar que en verdad está tomando solo las frutas que seleccionamos, deberemos de colocar en la parte de filas el campo frutas para que nos desglose ese total entre las frutas seleccionadas.
+
 <img src="../images/08/20.jpg"  >
 
 Ahora aplicaremos teniendo nuestro filtro a nivel dato, un filtro a nivel vista, para ellos vamos a nuestra hoja 1 y nos posicionamos en nuestros datos de las frutas, observemos que al dar clic sobre nos habilita un filtrado donde podemos mantener solo ese producto o excluir de la lista ese producto.
@@ -138,7 +146,6 @@ Lo primero es que vamos a colocar en columnas nuestro dato de FRUTAS y en filas 
 Ahora que ya tenemos un reporte general, vamos a ir desglosando este reporte , ahora vamos a iniciar la representación de los datos en modo de grafica para eso necesitamos colocar los siguientes datos en filas y columnas:
 
 <img src="../images/08/25.jpg"  >
-
 
 Y de nuestro modelo de datos vamos arrastra de nuestra bd  DATA EXPORTACION el campo AÑO a la parte de Paginas.
 
@@ -258,8 +265,7 @@ Ya con el nombre ahora en la parte de las operaciones colocaremos lo siguiente, 
 
 <img src="../images/08/50.jpg"  >
 
-Aceptamos y ya nos aparecerá este nuevo campo en nuestro modelo.
-Movemos el campo hacia texto y miremos que sucede.
+Aceptamos y ya nos aparecerá este nuevo campo en nuestro modelo. Movemos el campo hacia texto y miremos que sucede.
 
 <img src="../images/08/51.jpg"  >
 
@@ -275,7 +281,6 @@ Si observamos bien este redondeo que aplicamos no nos ayudó mucho en el tema de
 
 <img src="../images/08/54.jpg"  >
 
-
 Analicemos la raíz de nuestra información porque a nivel aplicativo no creo que sea el error, esto viene desde la raíz, vamos al Excel de Data Exportaciones para entender los datos
 
 <img src="../images/08/55.jpg"  >
@@ -289,9 +294,7 @@ Ahora seleccionemos todos los datos de nuestra columna D de nombre Cantidad (KG)
 
 <img src="../images/08/57.jpg"  >
 
-Observemos que el promedio de datos nada que ver con los datos que tenemos en nuestro informe.
-
-¿Equipo la pregunta del millón porque está pasando esto ?, ¿Acaso los datos los introducimos o exportamos mal ?
+Observemos que el promedio de datos nada que ver con los datos que tenemos en nuestro informe. ¿Equipo la pregunta del millón porque está pasando esto ?, ¿Acaso los datos los introducimos o exportamos mal ?
 
 Ahora vamos con la REPUESTA, recuerdan que creamos una pívot y 5 filas las unimos a una sola, entonces si esa cantidad que nos da Excel la multiplicamos por 5 nos dará la misma cantidad.
 
@@ -305,4 +308,200 @@ La explicación lógica resuelta pero como presentamos esta información, tenemo
 El resultado es :
 
 <img src="../images/08/60.jpg"  >
+
+
+### Tarea 4. Dashboards e Historias
+
+Si miramos bien, nuestra primera tarjeta nos presenta dos datos, las cantidades en kilogramos y las cantidades en toneladas, pero a nosotros nos interesa solo quedarnos con toneladas por lo tanto en esta primera tarjeta vamos a quitar la cantidad en kilogramos.
+
+<img src="../images/08/61.jpg"  >
+
+Ya tenemos la representación de los datos que necesitamos, ahora vamos a personalizar nuestra tarjeta y para ellos el primer dato que vamos a modificar es el título de la tarjeta, el cual dice Clientes, no nos interesa ese título por lo tanto lo vamos a eliminar de la siguiente manera.
+
+Daremos clic derecho sobre el titulo y presionaremos donde dice ocultar:
+
+<img src="../images/08/62.jpg"  >
+
+Quedando como resultado la siguiente imagen:
+
+<img src="../images/08/63.jpg"  >
+
+Ahora vamos a cambiar el nombre de la hoja presionando sobre hoja dos y colocaremos el nombre de TONELADAS POR CLIENTE:
+
+<img src="../images/08/64.jpg"  >
+
+Observemos que al momento de hacer el cambio el título de nuestra paleta de trabajo también cambio de hoja 2 a Toneladas por Cliente, también vamos a personalizar ese título y colocaremos Descripción – Toneladas Clientes, lo haremos de la siguiente manera:
+
+<img src="../images/08/65.jpg"  >
+
+Personalizado el título daremos clic en aceptar y el resultado será el siguiente:
+
+<img src="../images/08/66.jpg"  >
+
+Ahora nos toca formatear los valores de  nuestra tarjeta para ello daremos clic derecho sobre el primer valor y nos aparecerá las siguientes opciones:
+
+<img src="../images/08/67.jpg"  >
+
+Lo primero que vamos a realizar con esta herramienta de formateo es personalizar los títulos de cliente, para ellos observemos en la siguiente imagen que podemos seleccionar que dato es el que queremos formatear:
+
+<img src="../images/08/68.jpg"  >
+
+Ahora que seleccionamos el campo cliente , haremos las siguientes modificaciones en nuestro panel de personalización: 
+
+<img src="../images/08/69.jpg"  >
+
+El resultado será el siguiente:
+
+<img src="../images/08/70.jpg"  >
+
+A continuación, vamos a centrar el texto del campo clientes, daremos clic en la opción de Alineación y seleccionaremos la alineación central:
+
+<img src="../images/08/71.jpg"  >
+
+El resultado es :
+
+<img src="../images/08/72.jpg"  >
+
+Nuestro texto de cliente ya está alineado y formateado, ahora toca selecciona las cantidades en toneladas, para ello seleccionamos el campo primero:
+
+<img src="../images/08/73.jpg"  >
+
+Procedemos a colocar el siguiente formateo: 
+
+<img src="../images/08/74.jpg"  >
+
+Para alinear seleccionaremos la opción alineación de la siguiente manera:
+
+<img src="../images/08/75.jpg"  >
+
+Seleccionamos alineación y justo en esa opción, nos vamos a la sección de Predeterminado y en panel colocamos alineación central como se muestra en la imagen:
+
+<img src="../images/08/76.jpg"  >
+
+Obtendremos el siguiente resultado:
+
+<img src="../images/08/77.jpg"  >
+
+Ahora vamos a quitar las líneas divisoras de nuestros datos para realizar este ajuste vamos a dar clic cobre la opción Limites y buscaremos la opción Divisor de Filas aquí quitamos estas líneas como lo muestro en las siguientes imágenes: 
+
+<img src="../images/08/78.jpg"  >
+
+El resultado es el siguiente sin estas líneas divisoras, cabe recalcar que ustedes pueden colocar el formateo que más les agrade:
+
+<img src="../images/08/79.jpg"  >
+
+Ahora vamos a formatear el valor, como vemos nos aparece un decimal en 0, ese decimal vamos a quitarlo de la siguiente manera, vamos a seleccionar en la parte de campos cantidad en toneladas, ya que esta seleccionada nos vamos a ir a la pestaña de panel ahí buscaremos la opción de números daremos clic y seleccionaremos la opción Números Estándar.
+
+<img src="../images/08/80.jpg"  >
+
+Realizado ese formateo, el resultado es el siguiente:
+
+<img src="../images/08/81.jpg"  >
+
+Ahora parte de la personalización es también la organización de nuestros datos, si analizamos bien hay bastantes datos o campos que no son necesarios para nuestro dashboard por lo tanto vamos a ocultarlos desde nuestra fuente de datos de la siguiente manera:
+
+Primero vamos a nuestra pestaña de fuente de datos:
+
+<img src="../images/08/82.jpg"  >
+
+Ya dentro de nuestra pestaña de datos primero trabajaremos con nuestra conexión de nombre Data Exportaciones, aquí quitaremos todos los ID, vamos a proceder ocultarlo para ello seleccionaremos el primero que es Id Empresas daremos clic sobre su pestaña de opciones y seleccionaremos ocultar como se muestra en la imagen, realizado esto procederemos hacer lo mismo para los demás ID
+
+<img src="../images/08/83.png"  >
+
+El resultado que debemos tener es el siguiente:
+
+<img src="../images/08/84.jpg"  >
+
+Ahora procedemos a realizar lo mismo ocultar todos los ID de las demás conexiones (Clientes, Empresas, Frutas)
+
+El resultado esperado es el siguiente:
+
+<img src="../images/08/85.jpg"  >
+
+Si nosotros necesitamos mirar los valores ocultos, podemos visualizarlo donde clic sobre el engrane como se muestra en la siguiente imagen y con esto les aparecerán habilitado y sombreados estos campos ocultos
+
+<img src="../images/08/86.jpg"  >
+
+
+Ahora la pregunta del millón, ¿ esto para que me sirve? Miremos un antes y un después en nuestra tabla de trabajo a nivel campos:
+
+<img src="../images/08/87.jpg"  >
+
+Esta organización de nuestra información nos ayudara de una manera más fácil identificar los campos y los valores a utilizar en nuestro Dashboard.
+Realizado lo anterior procederemos a crear un diagrama de barra personalizado, para ello iniciaremos creando una nueva hoja en nuestra tabla de trabajo.
+
+<img src="../images/08/88.jpg"  >
+
+Creada la hoja le colocaremos el nombre de Toneladas de frutas por Cliente.
+
+<img src="../images/08/89.jpg"  >
+
+Personalizada nuestra nueva hoja, lo primero que realizaremos es arrastra nuestro campo de clientes a columna y en la parte de valores colocaremos el campo calculado que creamos anteriormente de nombre Cantidad (Toneladas).
+
+<img src="../images/08/90.jpg"  >
+
+Colocado los campos , ahora nos iremos a nuestro menú MOSTRAR y seleccionaremos Barras Horizontales y rotamos este grafico con la opción de rotación 
+
+<img src="../images/08/91.jpg"  >
+
+De esta forma en el eje Y tenemos las Toneladas en el eje X tenemos los distintos clientes, ahora nosotros también necesitamos saber la exportación que se ha tenido de las diferentes frutas para ellos arrastraremos el campo de frutas a la parte de columnas y presionaremos en la herramienta de mostrar etiquetas.
+
+<img src="../images/08/92.jpg"  >
+
+Ahora ayúdenme a que su desarrollo quede como les comparto en la siguiente imagen.
+
+<img src="../images/08/93.jpg"  >
+
+Ya formateado nuestro grafico como les mostraba anteriormente es necesario colocar en las columnas colores por clientes, esto para que nos ayude a visualizar de mejor manera los datos , procederemos a realizar lo siguiente primero arrastraremos nuestro campo de clientes a la herramienta de colores. Que sucederá al aplicar este tipo de filtrado, colocará a cada cliente un color distinto como lo Muestro en la siguiente imagen.
+
+<img src="../images/08/94.jpg"  >
+
+También nosotros podemos formatear que nuestro grafico de barras lo coloque de manera descendente y la tarjeta de colores la podemos ocultar esto para dar una mejor vista a nuestro reporte.
+
+<img src="../images/08/95.jpg"  >
+
+Ahora ocultaremos el encabezado de la gráfica dando clic derecho ocultar.
+
+<img src="../images/08/96.jpg"  >
+
+Por último, vamos a formatear para que no esté apareciendo el decimal que muestra nuestra grafica en el total de toneladas, para ellos iremos a la medida y daremos clic izquierdo y presionamos en formatear en la pestaña de Panel nos iremos a la opción de números y colocaremos Numeración Estándar.
+
+<img src="../images/08/97.jpg"  >
+
+El resultado es el siguiente:
+
+<img src="../images/08/98.jpg"  >
+
+Ahora crearemos otra hoja la cual le colocaremos el nombre de Monto total y porcentaje por país.
+
+<img src="../images/08/99.jpg"  >
+
+Ahora vamos a necesitar el campo de País en Filas y necesitamos el monto total de la venta para ellos analicemos nuestro Excel de Data Exportaciones.
+
+<img src="../images/08/100.jpg"  >
+
+Para obtener ese total de monto será necesario crear una medida en la cual multipliquemos cantidad kg por la venta de los países. 
+
+Lo primero que debemos ubicar el campo de precio y daremos clic derecho y crearemos un campo calculado.
+
+<img src="../images/08/101.jpg"  >
+<img src="../images/08/102.jpg"  >
+<img src="../images/08/103.jpg"  >
+<img src="../images/08/104.jpg"  >
+<img src="../images/08/105.jpg"  >
+<img src="../images/08/106.jpg"  >
+<img src="../images/08/107.jpg"  >
+<img src="../images/08/108.jpg"  >
+<img src="../images/08/109.jpg"  >
+<img src="../images/08/110.jpg"  >
+<img src="../images/08/111.jpg"  >
+<img src="../images/08/112.jpg"  >
+<img src="../images/08/113.jpg"  >
+<img src="../images/08/114.jpg"  >
+<img src="../images/08/115.jpg"  >
+<img src="../images/08/116.jpg"  >
+<img src="../images/08/117.jpg"  >
+<img src="../images/08/118.jpg"  >
+<img src="../images/08/119.jpg"  >
+<img src="../images/08/120.jpg"  >
 
