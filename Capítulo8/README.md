@@ -2,7 +2,10 @@
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-1.	xxxxxx
+1.	Conectar orígenes de datos
+2.	Realizar transformaciones
+3.	Crear vistas
+4.	Diseñar Dashboards
 
 
 ## Objetivo Visual 
@@ -128,7 +131,182 @@ Lo primero es que vamos a colocar en columnas nuestro dato de FRUTAS y en filas 
 
 <img src="../images/08/24.jpg" width="400" >
 
-Instrucción: En base a la base de datos que limpiamos anteriormente vamos a exportarla a nuestro programa de Tableau Desktop y vamos a crear lo siguiente Tabla de ventas total  por Cedis , Tabla de venta por VP Y Master y por último una Tabla de ventas por Articulo por Cedis
+*Instrucción (Actividad sin instrucción guiada)*: En base a la base de datos que limpiamos anteriormente vamos a exportarla a nuestro programa de Tableau Desktop y vamos a crear lo siguiente Tabla de ventas total  por Cedis , Tabla de venta por VP Y Master y por último una Tabla de ventas por Articulo por Cedis
 
 
+### Tarea 3. Análisis y Filtros en Tableau
+
+Ahora que ya tenemos un reporte general, vamos a ir desglosando este reporte , ahora vamos a iniciar la representación de los datos en modo de grafica para eso necesitamos colocar los siguientes datos en filas y columnas:
+
+<img src="../images/08/25.jpg" width="400" >
+
+
+Y de nuestro modelo de datos vamos arrastra de nuestra bd  DATA EXPORTACION el campo AÑO a la parte de Paginas.
+
+<img src="../images/08/26.jpg" width="400" >
+
+El resultado que obtendremos de colocar esta configuración será una gráfica en barras de la siguiente manera:
+
+<img src="../images/08/27.jpg" width="400" >
+
+Ahora para facilitar la lectura de nuestros storytelling vamos a utilizar las herramientas para personalizar nuestro gráfico, para una mejor lectura las barras las colocaremos de manera vertical utilizando la siguiente herramienta: 
+
+<img src="../images/08/28.jpg" width="400" >
+
+
+El resultado al realizar este ajuste es el siguiente: 
+<img width="856" height="81" alt="image" src="https://github.com/user-attachments/assets/8f950270-294f-448a-a7bc-5c5f71a5b563" />
+
+El resultado al realizar este ajuste es el siguiente: 
+
+<img src="../images/08/29.jpg" width="400" >
+
+Ahora vamos a trabajar con la información y pivotearemos datos para que nos ayuden a personalizar la información que necesitamos mostrar, vamos a crear otra hoja de trabajo en esta hoja nueva de trabajo necesitamos crear una tabla de datos que nos muestre las ventas por cliente y país.
+Para ellos arrastraremos clientes a filas:
+
+<img src="../images/08/30.jpg" width="400" >
+
+Y donde nos aparece el Abc ahí colocaremos de nuestra data de nombre Exportaciones, las ventas generadas en Canadá.
+
+<img src="../images/08/31.jpg" width="400" >
+
+Ahora aplicamos los mismo para los demás países, pero en vez de moverlos donde estaba el Abc , los colocaremos abajo en la parte de marcas sobre la opción de Texto:
+
+<img src="../images/08/32.jpg" width="400" >
+
+Al mover este dato la representación de este no es tan amigable, por lo cual es necesario hacer la transformación de esta información a tablas de texto para ellos nos iremos a la opción mostrar y seleccionaremos la opción tabla de texto:
+
+<img src="../images/08/33.jpg" width="400" >
+
+El resultado de seleccionar la tabla de texto es el siguiente:
+
+<img src="../images/08/34.jpg" width="400" >
+
+Teniendo esta configuración realizada, podríamos incluir los demás datos en la parte de nombre Valores de Medida hay colocaremos el resto arrastrándolos.
+
+<img src="../images/08/35.jpg" width="400" >
+
+El resultado que debemos de visualizar es el siguiente:
+
+<img src="../images/08/36.jpg" width="400" >
+
+Aquí la reflexión imaginemos que son alrededor de 30 países, estarlos agregando uno por uno sería un trabajo muy estresante y una inversión de tiempo horrible.
+
+Para ese tipo de eventualidades y manejo de la información Tableau tiene una herramienta que se llama pívot , algo parece sido a Excel pero este en lo particular esta para el tema de desarrollo de datos o estructuración de datos.
+Para utilizar esta herramienta nos iremos a nuestras fuentes de datos y seleccionaremos nuestra fuente de nombre DATA EXPORTACIONES.
+
+<img src="../images/08/37.jpg" width="400" >
+
+Dentro de nuestros datos de exportaciones seleccionaremos las ventas iniciando en E.E.U.U y finalizando en Canadá , cada una la sombrearemos y daremos clic derecho para seleccionar en el menú que nos aparecerá la opción pivotar ( Crear tabla dinámica). 
+
+<img src="../images/08/38.jpg" width="400" >
+
+
+Realizado lo anterior nuestra data tendrá cambios como se muestra en la siguiente imagen:
+
+<img src="../images/08/39.jpg" width="400" >
+
+Si observamos bien, nuestros datos se simplifican y nos crea dos campos, el primer campo el nombre de las ventas por país y el segundo campo el número de ventas.
+
+
+Si bien los datos así son funcionales podemos organizar nuestra data de una manera más flexible que nos pueda ayudar a simplificar y transparentar lo que nosotros queremos comunicar en nuestro storytelling.
+Nosotros de nuestra nueva columna, solo necesitamos extraer los países para poder crear una estructuración más idónea y nos ayude a estructura la información correctamente.
+Para ellos nos vamos a posicionar sobre esa columna y daremos clic sobre la pestaña de opciones para que nos despliegue las herramientas de división.
+
+<img src="../images/08/40.jpg" width="400" >
+
+Realizado lo anterior observemos que nos crea en automático una columna con los países que tenemos en nuestro campo pívot
+
+<img src="../images/08/41.jpg" width="400" >
+
+
+Ahora renombremos esta columna y nuestra pívot, ocultamos esa columna.
+
+<img src="../images/08/42.jpg" width="400" >
+
+Realizado el ajuste anterior nuestra hoja nos aparecerá todo en rojo, no te asustes, esto es porque recuerda que creamos una medida. 
+
+<img src="../images/08/43.jpg" width="400" >
+
+Ya con la medida podemos realizar la siguiente configuración para nuestro reporte.
+
+<img src="../images/08/44.jpg" width="400" >
+
+Nuestra visualización quedara de la siguiente manera:
+
+<img src="../images/08/45.jpg" width="400" >
+
+Para nosotros crear una medida en nuestros campos es necesario posicionarnos sobre el modelo de datos y a continuación sobre el campo donde deseamos agregar la medida.
+Para este ejemplo crearemos una medida al campo Cantidad KG vamos a crear una medida en la cual los kilogramos los convertiremos a toneladas de la siguiente manera.
+
+Nos posicionamos sobre nuestros datos de Data Exportación – campos Cantidad KG, daremos clic derecho y seleccionaremos crear una medida.
+
+<img src="../images/08/46.jpg" width="400" >
+
+
+Ahora que ya sabes crear filtros, nos tocara crear medidas con nuestra información y jugar con las tarjetas que podemos desarrollar para nuestra Dashboard.
+
+Para ellos en esta primera etapa necesitamos colocar el campo de clientes en la parte de columnas y el acampo de kilogramos lo colocaremos sobre cliente para obtener la siguiente visualización.
+
+<img src="../images/08/47.jpg" width="400" >
+
+Cuando demos clic sobre crear campo calculado nos aparecerá la siguiente pantalla.
+
+<img src="../images/08/48.jpg" width="400" >
+
+Aquí es donde colocaremos las instrucciones para realizar dicha acción, iniciaremos con nombrar este campo calculado como Cantidad (Tonelada)
+
+<img src="../images/08/49.jpg" width="400" >
+
+Ya con el nombre ahora en la parte de las operaciones colocaremos lo siguiente, una tonelada es igual a 1000 KG por lo tanto tenemos que dividir nuestro campo Cantidad (KG) entre mil.
+
+<img src="../images/08/50.jpg" width="400" >
+
+Aceptamos y ya nos aparecerá este nuevo campo en nuestro modelo.
+Movemos el campo hacia texto y miremos que sucede.
+
+<img src="../images/08/51.jpg" width="400" >
+
+Nos mostrara nuestra tarjeta aparte de los KG también aparecen las Toneladas:
+
+<img src="../images/08/52.jpg" width="400" >
+
+Ahora imagínate que te piden redondear este valor de tonelada, para ello vamos al campo que creamos de cantidad tonelada y editamos la medida, para redondear agregaremos a la formula la instrucción ROUND y en ella especificamos la cantidad de decimales de la siguiente manera:
+
+<img src="../images/08/53.jpg" width="400" >
+
+Si observamos bien este redondeo que aplicamos no nos ayudó mucho en el tema de los valores:
+
+<img src="../images/08/54.jpg" width="400" >
+
+
+Analicemos la raíz de nuestra información porque a nivel aplicativo no creo que sea el error, esto viene desde la raíz, vamos al Excel de Data Exportaciones para entender los datos
+
+<img src="../images/08/55.jpg" width="400" >
+
+Lo primero será activar filtros y filtrar la primera empresa para ellos debemos de validar que numero de empresa es America Exportadores y filtramos el Id cliente número 3
+
+<img src="../images/08/56.jpg" width="400" >
+
+
+Ahora seleccionemos todos los datos de nuestra columna D de nombre Cantidad (KG).
+
+<img src="../images/08/57.jpg" width="400" >
+
+Observemos que el promedio de datos nada que ver con los datos que tenemos en nuestro informe.
+
+¿Equipo la pregunta del millón porque está pasando esto ?, ¿Acaso los datos los introducimos o exportamos mal ?
+
+Ahora vamos con la REPUESTA, recuerdan que creamos una pívot y 5 filas las unimos a una sola, entonces si esa cantidad que nos da Excel la multiplicamos por 5 nos dará la misma cantidad.
+
+<img src="../images/08/58.jpg" width="400" >
+
+
+La explicación lógica resuelta pero como presentamos esta información, tenemos que realizar unos ajustes en nuestra formula de la medida, donde colocaremos la suma de las cantidades de KG divididas entre 1000 y ahí aplicaremos nuestra instrucción de ROUND y quedara de la siguiente manera equipo:
+
+<img src="../images/08/59.jpg" width="400" >
+
+El resultado es :
+
+<img src="../images/08/60.jpg" width="400" >
 
