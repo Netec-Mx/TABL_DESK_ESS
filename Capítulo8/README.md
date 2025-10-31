@@ -655,13 +655,3 @@ Al aplicar el filtro el resultado es el siguiente:
 Si miramos bien esta manera de colocar los filtros no es tan conveniente, por lo tanto, editaremos el filtro de clientes y lo personalizaremos desde su pestaña de ajustes: 
 
 <img src="../images/08/143.jpg"  >
-
-
-<img src="../images/08/144.jpg"  >
-<img src="../images/08/145.jpg"  >
-<img src="../images/08/146.jpg"  >
-<img src="../images/08/147.jpg"  >
-<img src="../images/08/148.jpg"  >
-<img src="../images/08/149.jpg"  >
-<img src="../images/08/150.jpg"  >
-
