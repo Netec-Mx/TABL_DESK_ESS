@@ -585,7 +585,7 @@ Ahora daremos clic izquierdo sobre el valor dos en columnas y seleccionaremos Ej
 
 Seguiremos personalizando el valor Dos , vamos a seleccionar dentro  de marcas sobre el valor dos un color y seleccionaremos el color blanco para obtener este resultado:
 
-<img src="../images/08/126.jpg"  >
+<img src="../images/08/126.png"  >
 
 Ahora personalicemos nuestro Dato Uno (Grafico Uno) vamos a agregar las etiquetas de país en sus valores de la siguiente manera:
 
