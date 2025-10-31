@@ -154,9 +154,6 @@ Ahora para facilitar la lectura de nuestros storytelling vamos a utilizar las he
 
 
 El resultado al realizar este ajuste es el siguiente: 
-<img width="856" height="81" alt="image" src="https://github.com/user-attachments/assets/8f950270-294f-448a-a7bc-5c5f71a5b563" />
-
-El resultado al realizar este ajuste es el siguiente: 
 
 <img src="../images/08/29.jpg"  >
 
