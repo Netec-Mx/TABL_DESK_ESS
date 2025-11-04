@@ -1,43 +1,53 @@
-# Nombre del laboratorio 
+# Implementación de una integración con R o Python
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-- Objetivo1
-- Objetivo2
-- Objetivo3
+1.	Aprender comandos básics de R o Python
+2.	Ejecutar scripts de R o Python sobre Tableau
+
 
 ## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
 
-![diagrama1](../images/img1.png)
+<img src="../images/06/00.png" width="500" >
+
+
 
 ## Duración aproximada:
-- xx minutos.
+- 60 minutos.
 
-## Tabla de ayuda:
-Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
-| Contraseña | Correo | Código |
-| --- | --- | ---|
-| Netec2024 | edgardo@netec.com | 123abc |
 
 ## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
 
-Paso 2. <!-- Añadir instrucción -->
+### Tarea 1. Configuración inicial
 
-Paso 3. <!-- Añadir instrucción -->
+Vamos a explorar el tema programación en otra herramienta que es REstudio combinada con Phyton, para ellos abriremos nuestro entorno de REstudio y crearemos un archivo Script como se muestra en la imagen, este archivo nos ayudara a traducir o interpretar los comando que tecleemos.
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+<img src="../images/06/01.jpg">
 
-Paso 2. <!-- Añadir instrucción -->
+Creada nuestra hoja de Script estamos listos para iniciar con nuestras primeras instrucciones de  funciones de redondeo, por lo cual ahí teclear cada una de las siguientes instrucciones :
 
-Paso 3. <!-- Añadir instrucción -->
+<img src="../images/06/02.jpg">
 
-### Resultado esperado
-En esta sección se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
+Creada nuestra hoja de Script estamos listos para iniciar con nuestras primeras instrucciones de  funciones de redondeo, por lo cual ahí teclear cada una de las siguientes instrucciones :
 
+<img src="../images/06/03.jpg">
 
+Creada nuestra hoja de Script estamos listos para iniciar con nuestras primeras instrucciones de  funciones de redondeo, por lo cual ahí teclear cada una de las siguientes instrucciones :
+
+<img src="../images/06/04.jpg">
+
+Creada nuestra hoja de Script estamos listos para iniciar con nuestras primeras instrucciones de  funciones de redondeo, por lo cual ahí teclear cada una de las siguientes instrucciones :
+
+<img src="../images/06/05.jpg">
+
+Ahora probemos las instrucciones para la asignación variables y definición de funciones:
+
+<img src="../images/06/06.jpg">
+
+Ahora probemos las instrucciones para la asignación variables y definición de funciones:
+
+<img src="../images/06/07.jpg">
+
+Ahora probemos las instrucciones para la asignación variables y definición de funciones:
+
+<img src="../images/06/08.jpg">
