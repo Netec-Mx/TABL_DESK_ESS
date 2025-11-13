@@ -1,6 +1,6 @@
 # Práctica 3. Análisis y filtros en Tableau 
 
-## Objetivo de la práctica:
+## Objetivos
 Al finalizar la práctica, serás capaz de:
 - Centrarte en los datos relevantes mediante filtros y colores para analizar con mayor precisión los resultados en Tableau Desktop.
 - Analizar las tendencias geográficas de ventas y rentabilidad creando una vista de mapa en Tableau para visualizar patrones por región.
