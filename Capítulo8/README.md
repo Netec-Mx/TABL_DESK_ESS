@@ -1,20 +1,20 @@
-# Proyecto Final
+# Proyecto final
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-1.	Conectar orígenes de datos
-2.	Realizar transformaciones
-3.	Crear vistas
-4.	Diseñar Dashboards
+- Conectar orígenes de datos.
+- Realizar transformaciones.
+- Crear vistas.
+- Diseñar dashboards.
 
 
-## Objetivo Visual 
+## Objetivo visual 
 
 <img src="../images/08/00.png" width="500" >
 
 
 
-## Duración aproximada:
+## Duración aproximada
 - 120 minutos.
 
 
