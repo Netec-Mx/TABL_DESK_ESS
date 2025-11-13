@@ -18,7 +18,7 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
    - Conectarte a una fuente de datos en Tableau Desktop y abrir la sesión inicial.
    - Visualizar la página de `Conectar` en Tableau, elegir un conector y vincular el conjunto de datos `Muestra - Supertienda`. 
    - Ver la interfaz de fuente de datos: observar la hoja de trabajo en blanco, la lista de campos, los tipos de dato y roles que asigna automáticamente Tableau.
-- ⏱️ **Duración estimada: 30 min.
+- ⏱️ **Duración estimada**: 30 min.
 
 ### [Práctica 2. Creación de visualizaciones básicas](Capítulo2/README.md)
 - **Descripción**
