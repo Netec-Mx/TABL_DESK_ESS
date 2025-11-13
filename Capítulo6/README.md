@@ -1,12 +1,12 @@
-# Implementación de una integración con R o Python
+# Práctica 6. Implementación de una integración con R o Python
 
-## Objetivo de la práctica:
+## Objetivos
 Al finalizar la práctica, serás capaz de:
-1.	Aprender comandos básics de R o Python
-2.	Ejecutar scripts de R o Python sobre Tableau
+- Aprender comandos básics de R o Python.
+- Ejecutar scripts de R o Python sobre Tableau.
 
 
-## Objetivo Visual 
+## Objetivo visual 
 
 <img src="../images/06/00.png" width="500" >
 
