@@ -52,7 +52,7 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
    - Ejecutar scripts de R o Python sobre Tableau.
 - ⏱️**Duración estimada**: 60 min.
 
-### [Práctica 7. Proyecto final](Capítulo8/README.md) 
+### [Proyecto final](Capítulo8/README.md) 
 - **Descripción**
    - Conectar orígenes de datos.
    - Realizar transformaciones.
