@@ -150,12 +150,5 @@ En función del tipo de análisis que desee hacer, el gráfico de barras apilada
 #### Compruebe su trabajo. Vea "Refinar la vista" en acción
 <img src="../images/02/11.gif" width="900" >
 
-#### Resumen de los pasos
-
-Este paso consistía en conocer los datos y empezar a hacerse preguntas sobre los datos para obtener información útil. Has aprendido a:
-
-- Crear un gráfico en una vista que le sirva.
-- Agregar campos para obtener el nivel de detalle adecuado en la vista.
-
-Ya está listo para empezar a centrarse en los resultados e identificar áreas de interés más específicas. En la siguiente sección, aprenderá a usar filtros y colores para ayudarlo a explorar los datos visualmente.
+Ya está listo para empezar a centrarse en los resultados e identificar áreas de interés más específicas. En la siguiente sección, aprenderás a usar filtros y colores para ayudarlo a explorar los datos visualmente.
 
