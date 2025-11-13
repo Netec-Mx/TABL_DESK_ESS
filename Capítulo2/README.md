@@ -1,12 +1,12 @@
-# Creación de visualizaciones básicas
+# Práctica 2. Creación de visualizaciones básicas
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-1.	Crear una vista
-2.	Refinar una vista
+- Crear una vista.
+- Refinar una vista.
 
 
-## Objetivo Visual 
+## Objetivo visual 
 
 <img src="../images/02/00.png" width="500" >
 
