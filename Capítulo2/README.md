@@ -1,6 +1,6 @@
 # Práctica 2. Creación de visualizaciones básicas
 
-## Objetivo de la práctica:
+## Objetivos
 Al finalizar la práctica, serás capaz de:
 - Crear una vista.
 - Refinar una vista.
@@ -11,7 +11,7 @@ Al finalizar la práctica, serás capaz de:
 <img src="../images/02/00.png" width="500" >
 
 
-## Duración aproximada:
+## Duración aproximada
 - 40 minutos.
 
 
