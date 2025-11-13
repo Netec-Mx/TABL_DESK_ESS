@@ -1,4 +1,4 @@
-# Conexión y preparación de datos
+# Práctica 1. Conexión y preparación de datos
 
 ## Objetivos
 Al finalizar la práctica, serás capaz de:
