@@ -1,16 +1,16 @@
 # Conexión y preparación de datos
 
-## Objetivo de la práctica:
+## Objetivos
 Al finalizar la práctica, serás capaz de:
-1. Conectarse a una fuente de datos en Tableau Desktop (por ejemplo archivo, servidor o servicio en la nube) y abrir la sesión inicial.
-2. Visualizar la página de “Conectar” en Tableau, elegir un conector y vincular el conjunto de datos “Muestra - Supertienda”. 
-3. Ver la interfaz de fuente de datos: observar la hoja de trabajo en blanco, la lista de campos, los tipos de dato y roles que asigna automáticamente Tableau. 
+- Conectarte a una fuente de datos en Tableau Desktop y abrir la sesión inicial.
+- Visualizar la página de `Conectar` en Tableau, elegir un conector y vincular el conjunto de datos `Muestra - Supertienda`. 
+- Ver la interfaz de fuente de datos: observar la hoja de trabajo en blanco, la lista de campos, los tipos de dato y roles que asigna automáticamente Tableau. 
 
-## Objetivo Visual 
+## Objetivo visual 
 
 <img src="../images/01/00.png" width="500" >
 
-## Duración aproximada:
+## Duración aproximada
 - 30 minutos.
 
 ## Instrucciones 
