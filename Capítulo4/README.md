@@ -1,19 +1,19 @@
-# Dashboards e historias
+# Práctica 4. Dashboards e historias
 
-## Objetivo de la práctica:
+## Objetivos
 Al finalizar la práctica, serás capaz de:
-1.	Diseñar dashboards efectivos
-2.	Añadir interactividad a Dashboards
-3.	Crear Historias en Tableau
+- Diseñar dashboards efectivos.
+- Añadir interactividad a los dashboards.
+- Crear historias en Tableau.
 
 
-## Objetivo Visual 
+## Objetivo visual 
 
 <img src="../images/04/00.png" width="500" >
 
 
 
-## Duración aproximada:
+## Duración estimada
 - 60 minutos.
 
 
