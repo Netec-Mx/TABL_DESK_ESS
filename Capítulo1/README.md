@@ -1,4 +1,4 @@
-<img width="83" height="23" alt="image" src="https://github.com/user-attachments/assets/d07c8cd3-ea02-4778-94b5-894231207613" /># Práctica 1. Conexión y preparación de datos
+Práctica 1. Conexión y preparación de datos
 
 ## Objetivos
 Al finalizar la práctica, serás capaz de:
