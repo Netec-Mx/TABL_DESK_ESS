@@ -1,6 +1,6 @@
 # Proyecto final
 
-## Objetivo de la práctica:
+## Objetivos
 Al finalizar la práctica, serás capaz de:
 - Conectar orígenes de datos.
 - Realizar transformaciones.
