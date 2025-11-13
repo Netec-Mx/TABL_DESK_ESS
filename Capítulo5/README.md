@@ -1,18 +1,18 @@
-# Análisis Avanzado
+# Práctica 5. Análisis avanzado
 
-## Objetivo de la práctica:
+## Objetivos
 Al finalizar la práctica, serás capaz de:
-1.	Diseño de visualizaciones avanzadas
-2.	Creación de un dashboard con gráficas y análisis avanzados
+- Diseñar visualizaciones avanzadas.
+- Crear un dashboard con gráficas y análisis avanzados.
 
 
-## Objetivo Visual 
+## Objetivo visual 
 
 <img src="../images/05/00.png" width="500" >
 
 
 
-## Duración aproximada:
+## Duración aproximada
 - 120 minutos.
 
 
