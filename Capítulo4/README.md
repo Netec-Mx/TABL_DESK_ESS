@@ -261,7 +261,7 @@ Haz clic en `Aceptar`.
 
 <img src="../images/04/17.png" width="800" >
 
-Parece que el dashboard es demasiado grande para la presentación. Qué fastidio. Presiona la tecla `Esc` para salir de la presentación y, a continuación, selecciona la hoja `Ganancias regionales` en la parte inferior del libro de trabajo.
+Parece que el dashboard es demasiado grande para la presentación. Presiona la tecla `Esc` para salir de la presentación y, a continuación, selecciona la hoja `Ganancias regionales` en la parte inferior del libro de trabajo.
 
 En el panel izquierdo, debajo de `Dashboard`, cambia la selección de la lista desplegable `Tamaño de escritorio` a `Ajustar para mejorar las ganancias en el sur`. De esta forma, se cambiará automáticamente el tamaño del dashboard para visualizar la historia de forma óptima.
 
