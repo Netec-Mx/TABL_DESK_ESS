@@ -40,13 +40,13 @@ En esta sección, arrastrarás campos a los estantes de `Columnas` y `Filas` y t
 | C y D. `Tarjetas y estantes` | Las tarjetas son contenedores para los distintos controles disponibles en Tableau. Los estantes son un tipo de control de tarjeta. Al arrastrar campos del panel Datos a los estantes `Columnas` o `Filas`, los datos se agregan como una columna o una fila en los ejes de la vista. Al arrastrar campos del panel `Datos` a la tarjeta `Marcas`, puedes controlar propiedades visuales como tipo, color, tamaño, forma y mucho más. Esta acción afectará solamente a las marcas de la vista; los ejes no cambian. |
 | E. `Ocultar o mostrar tarjetas` | ¿Ocultaste una tarjeta sin querer y ahora la necesitas? No hay problema. Casi todo el contenido del área de trabajo se puede activar o desactivar para proporcionar el máximo espacio para crear sus visualizaciones. Para mostrar u ocultar tarjetas como `Páginas`, `Filtros` o `Leyendas`, haz clic en la flecha desplegable del botón `Ocultar o mostrar tarjetas` en la barra de herramientas o activa la marca de verificación para la tarjeta. Incluso puedes contraer el panel `Datos y análisis` a la esquina inferior izquierda del área de trabajo haciendo clic en el botón minimizar `Datos y análisis` que se encuentra en la esquina superior izquierda del panel. Vuelve a hacer clic en el botón para restaurar el panel. | 
 
-1. Desde el panel `Datos`, arrastra `Fecha de pedido` al estante `Columnas`.
+* Desde el panel `Datos`, arrastra `Fecha de pedido` al estante `Columnas`.
 
 > **Nota**
 > 
 > Al arrastrar `Order Date` al estante `Columnas`, Tableau crea una columna para cada año en el conjunto de datos. Debajo de cada columna hay un indicador `Abc`. Indica que aquí puedes arrastrar texto o datos numéricos, como lo que puedes ver en una hoja de cálculo de Excel. Si arrastras `Sales` a esta área, Tableau crea una tabulación cruzada (como una hoja de cálculo) y muestra el total de ventas para cada año.
 
-2. Desde el panel `Datos`, arrastra `Sales` al estante `Filas`.
+* Desde el panel `Datos`, arrastra `Sales` al estante `Filas`.
 
 Tableau genera el siguiente gráfico con las ventas acumuladas como una suma (agregadas). Puedes ver el total de ventas agregadas para cada año por fecha de pedido.
 
@@ -77,7 +77,7 @@ Tableau admite muchos tipos de gráficos distintos, conocidos como tipos de `Mar
 <img src="../images/02/04.gif" width="900" >
 
 
-1. Para obtener información más útil sobre qué productos impulsan las ventas generales, intenta agregar más datos. Comienza agregando las categorías de producto para observar los totales de ventas de manera distinta.
+* Para obtener información más útil sobre qué productos impulsan las ventas generales, intenta agregar más datos. Comienza agregando las categorías de producto para observar los totales de ventas de manera distinta.
 
 En el panel `Datos`, arrastra `Category` al estante `Columnas` y colócala a la derecha de `YEAR` (`Order Date`).
 
@@ -121,7 +121,7 @@ Desde esta vista, puedes ver que las ventas de muebles (`Furniture`) crecen más
 
 Para responder a esta pregunta, decide ver los productos por subcategoría para detectar qué artículos se venden mejor. Por ejemplo, para la categoría `Furniture`, necesitarás detalles sobre `Bookcases`, `Chairs`, `Furnishings` y `Tables`. Estos datos pueden ofrecer más información sobre las ventas y, con ello, sobre la rentabilidad, por lo que no dudes en añadir subcategorías al gráfico de barras.
 
-2. Haz doble clic en `Sub-Category` o arrástrala al estante `Columnas`.
+* Haz doble clic en `Sub-Category` o arrástrala al estante `Columnas`.
 
 > **Nota**
 > 
