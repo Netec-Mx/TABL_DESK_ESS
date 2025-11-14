@@ -57,7 +57,7 @@ Al arrastrar `Profit` a Color, puede ver que tiene ganancias negativas en Tables
 
 <img src="../images/03/03.png" width="800" >
 
-> [!NOTE]
+> **Nota**
 > Tableau ha añadido automáticamente una leyenda de color y ha asignado una paleta de colores divergentes, porque los datos incluyen valores negativos y positivos.
 
 
@@ -203,7 +203,8 @@ Tableau conserva la hoja de trabajo anterior y crea una nueva para que pueda con
 
 Ya tiene una vista de mapa.
 
-<img src="../images/03/14.png" width="600" >
+<img src="../images/03/14.png">
+
 
 #### Hacer doble clic para agregar campos geográficos
 
@@ -288,7 +289,7 @@ Como vimos en el último paso, los mapas son estupendos para visualizar los dato
 
 Mostrarme destaca tipos de gráficos distintos según los datos que ha agregado a la vista.
 
-> [!NOTE]
+> **Nota**
 > Cuando lo desee, puede volver a hacer clic en Mostrarme para contraerlo.
 
 <img src="../images/03/20.png" width="350" >
@@ -299,7 +300,7 @@ Ya vuelve a tener un gráfico de barras, así de fácil.
 
 4. Para seleccionar varias barras en la izquierda, seleccione y arrastre el cursor por varias de las barras situadas entre Tennessee, North Carolina y Florida para seleccionar las barras de la izquierda. En la descripción emergente que aparece, seleccione Mantener solamente para centrarse en estos tres estados.
 
-> [!NOTE]
+> **Nota**
 > también puede hacer clic con el botón derecho en las barras destacadas y seleccionar Mantener solamente.
 
 Tenga en cuenta que el campo Inclusiones para `State` se agrega al estante Filtros para indicar que ciertos estados están filtrados en la vista. El icono con dos círculos en el campo indica que este campo es un conjunto. Puedes editarlo haciendo clic con el botón derecho en el campo en el estante Filtros y seleccionando Editar filtro.
