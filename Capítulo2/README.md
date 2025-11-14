@@ -43,6 +43,7 @@ En esta sección, arrastrarás campos a los estantes de `Columnas` y `Filas` y t
 1. Desde el panel `Datos`, arrastra `Fecha de pedido` al estante `Columnas`.
 
 > **Nota**
+> 
 > Al arrastrar `Order Date` al estante `Columnas`, Tableau crea una columna para cada año en el conjunto de datos. Debajo de cada columna hay un indicador `Abc`. Indica que aquí puedes arrastrar texto o datos numéricos, como lo que puedes ver en una hoja de cálculo de Excel. Si arrastras `Sales` a esta área, Tableau crea una tabulación cruzada (como una hoja de cálculo) y muestra el total de ventas para cada año.
 
 2. Desde el panel `Datos`, arrastra `Sales` al estante `Filas`.
@@ -67,6 +68,7 @@ Por ejemplo, para un gráfico de áreas, puedes seleccionar `Área`.
 Tableau admite muchos tipos de gráficos distintos, conocidos como tipos de `Marca`. 
 
 > **Nota**
+> 
 > Antes de seguir con el tutorial, asegúrate de revertir el tipo de gráfico a `Automático`.
 
 
@@ -97,6 +99,7 @@ Para añadir información de punto de datos como etiquetas a la vista, haz clic 
 Abajo se muestran las ventas totales para cada año y categoría.
 
 > **Nota**
+> 
 > En el tutorial **Introducción**, las etiquetas de texto no se agregan a la vista.
 
 <img src="../images/02/07.png" width="500" >
@@ -107,6 +110,7 @@ Abajo se muestran las ventas totales para cada año y categoría.
 Para mostrar el gráfico de barras horizontalmente, en lugar de verticalmente, haz clic en `Intercambiar filas y columnas` en la barra de herramientas.
 
 > **Nota**
+> 
 > Deshaz esta acción antes de continuar con el tutorial **Introducción**
 
 <img src="../images/02/08.png" width="900" >
@@ -120,6 +124,7 @@ Para responder a esta pregunta, decide ver los productos por subcategoría para 
 2. Haz doble clic en `Sub-Category` o arrástrala al estante `Columnas`.
 
 > **Nota**
+> 
 > Puedes arrastrar y soltar o hacer doble clic en un campo para agregarlo a la vista, pero tenga cuidado. Tableau presupone dónde agregar los datos y puede que no los coloque en donde esperabas. Siempre puedes hacer clic en `Deshacer` para eliminar el campo o arrastrarlo fuera del área donde Tableau lo colocó y empezar de nuevo.
 
 `Sub-Category` es otro campo discreto. Crea otro encabezado al final de la vista y muestra una barra para cada subcategoría (68 marcas) desglosada por categoría y año.
@@ -135,6 +140,7 @@ Si deseas ver cómo los productos contribuyen a las ventas generales por categor
 Si arrastras la `Sub-Category` a `Color` en la tarjeta `Marcas`, puedes crear un gráfico de barras apiladas con marcas adicionales para cada subcategoría identificada por un único color. Tableau muestra automáticamente una leyenda a la derecha para los valores de subcategoría.
 
 > **Nota**
+> 
 > Deshaz esta acción antes de continuar con el tutorial **Introducción**.
 
 <img src="../images/02/10.png" width="900" >
