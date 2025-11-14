@@ -22,9 +22,9 @@ Al finalizar la práctica, serás capaz de:
 
 Para este desarrollo es necesario descargar la data que tenemos en nuestra carpeta de nombre Segundo Proyecto:
 
-Por favor para continuar con el desarrollo del proyecto se tiene que crear una carpeta y descargar el archivo "Data.zip", una vez descargado tienes que extraer los archivos que contienen. Tales archivos contienen los siguientes nombres:
+Por favor, para continuar con el desarrollo del proyecto tienes que crear una carpeta y descargar el archivo "Data.zip", una vez descargado tienes que extraer los archivos que contienen. Tales archivos contienen los siguientes nombres:
 
-*Crear Carpeta -> "Dashboard - Recursos Humanos"*
+*Crear Carpeta -> "`Dashboard` - Recursos Humanos"*
 *Data.xlsx*
 *ESQUEMA_RRHH.jpg*
 *Background.jpg*
@@ -66,7 +66,7 @@ Ahora arrastraremos la tabla Estado (Countries) y está la relacionaremos con nu
 
 <img src="../images/05/08.jpg"  >
 
-Finalmente  arrastraremos la tabla Region y este lo relacionaremos con nuestra tabla de Estado (Countries) ambos por el campo Region ID.
+Finalmente  arrastraremos la tabla `Region` y este lo relacionaremos con nuestra tabla de Estado (Countries) ambos por el campo `Region` ID.
 
 <img src="../images/05/09.jpg"  >
 
@@ -84,7 +84,7 @@ Ya que ocultamos estos campos que no son necesarios para nuestro desarrollo, dar
 
 <img src="../images/05/12.jpg"  >
 
-Vamos a probar que esta  todo bien, para ellos en filas colocaremos el campo First Name y como dato colocaremos el campo  Salary para que nos presente el siguiente listado:
+Vamos a probar que esta  todo bien, para ellos en filas colocaremos el campo First Name y como dato colocaremos el campo  `Salary` para que nos presente el siguiente listado:
 
 <img src="../images/05/13.jpg"  >
 
@@ -92,8 +92,8 @@ Ahora crearemos un campo calculado donde unamos nuestro campo First Name más el
 
 <img src="../images/05/14.jpg"  >
 
-Ya que validamos que todo está en orden vamos a remover los datos anteriores de nuestra tabla de trabajo y ahora arrastraremos el campo Hire Date ( Fecha de Contratacion) y Nombre en columnas  y en filas colocaremos el campo Salary.
-Realizado esto vamos a presionar en formatear sobre nombre y colocaremos nuestros nombres centrados de manera Horizontal como se muestra en la siguiente imagen.
+Ya que validamos que todo está en orden vamos a remover los datos anteriores de nuestra tabla de trabajo y Ahora arrastraremos el campo Hire Date ( Fecha de Contratacion) y Nombre en columnas  y en filas colocaremos el campo `Salary`.
+Una vez hecho esto vamos a presionar en formatear sobre nombre y colocaremos nuestros nombres centrados de manera Horizontal como se muestra en la siguiente imagen.
 
 <img src="../images/05/15.jpg"  >
 
@@ -111,7 +111,7 @@ Creado nuestro grafico de salarios, vamos a irnos a nuestra pestaña de Análisi
 | Resaltado | reglas para identificar valores atípicos o áreas de interés  |
 | Agrupación y clústeres  | grupos automáticos según similitudes en los datos  |
 
-Soltamos y observemos que nos solicita un valor para este ejemplo colocaremos $12,000  que será nuestra línea constante, esta nos sirve para analizar los datos que sobre pasen este tope de valor, es por ellos que a lo largo del grafico coloca una línea Horizontal con un valor de 12,000.
+Soltamos y vamos a observar que nos solicita un valor para este ejemplo colocaremos $12,000  que será nuestra línea constante, esta nos sirve para analizar los datos que sobre pasen este tope de valor, es por ellos que a lo largo del grafico coloca una línea Horizontal con un valor de 12,000.
 
 <img src="../images/05/16.jpg"  >
 
@@ -131,7 +131,7 @@ Si observamos nos aparece una línea igual que constante solo que aquí nos señ
 
 <img src="../images/05/20.jpg"  >
 
-Ahora eliminaremos la línea de nuevo iremos a nuestra pestaña de análisis y seleccionaremos línea promedio solo que ahora seleccionaremos la opción de Panel como se muestra en la imagen:
+Ahora eliminaremos la línea de nuevo iremos a nuestra pestaña de análisis y seleccionaremos línea promedio solo que Ahora seleccionaremos la opción de Panel como se muestra en la imagen:
 
 <img src="../images/05/21.jpg"  >
 
@@ -139,7 +139,7 @@ Ahora si observamos esta opción nos muestra los promedios por panel por cada se
 
 <img src="../images/05/22.jpg"  >
 
-Ahora de nuevo eliminamos la línea y vamos por nuestra última opción en línea de referencia, pero ahora por celda:
+Ahora de nuevo eliminamos la línea y vamos por nuestra última opción en línea de referencia, pero Ahora por celda:
 
 <img src="../images/05/23.jpg"  >
 
@@ -168,7 +168,7 @@ Ahora formateado nuestros nombres, vamos a ir a nuestra pestaña de análisis y 
 
 <img src="../images/05/29.jpg"  >
 
-Eliminamos nuestro ejemplo anterior y ahora nos vamos a análisis y arrastraremos la opción Media con intervalo de confianza, este análisis nos ayudara a estimar el grado de imprecisión de la estimación; es inversamente proporcional al tamaño de la muestra, la estimación se hace para un determinado nivel de confianza, usualmente 95% o 99% y para poder realizarla solo basta con arrastrar hacia nuestra gráfica y nos aparecerán las diferentes formas en la que la podemos representar para este ejemplo seleccionaremos la opción panel.
+Eliminamos nuestro ejemplo anterior y Ahora nos vamos a análisis y arrastraremos la opción Media con intervalo de confianza, este análisis nos ayudara a estimar el grado de imprecisión de la estimación; es inversamente proporcional al tamaño de la muestra, la estimación se hace para un determinado nivel de confianza, usualmente 95% o 99% y para poder realizarla solo basta con arrastrar hacia nuestra gráfica y nos aparecerán las diferentes formas en la que la podemos representar para este ejemplo seleccionaremos la opción panel.
 
 <img src="../images/05/30.jpg"  >
 
@@ -180,7 +180,7 @@ Ya con estos datos colocados en nuestra tabla de trabajo, nos iremos a nuestra t
 
 <img src="../images/05/32.jpg"  >
 
-Ahora si con este último ajuste nos vamos a nuestra pestaña de Análisis y observemos que tenemos disponible ya Línea de Tendencia, Pronostico y Clúster, vamos a iniciar con la opción de línea de tendencia arrastraremos nuestra opción al gráfico y seleccionaremos la opción de manera lineal como se muestra en la siguiente imagen:
+Ahora si con este último ajuste nos vamos a nuestra pestaña de Análisis y vamos a observar que tenemos disponible ya Línea de Tendencia, Pronostico y Clúster, vamos a iniciar con la opción de línea de tendencia arrastraremos nuestra opción al gráfico y seleccionaremos la opción de manera lineal como se muestra en la siguiente imagen:
 
 <img src="../images/05/33.jpg"  >
 
@@ -189,7 +189,7 @@ Para nuestro siguiente ejercicio vamos a crear otra tabla de trabajo en la cual 
 <img src="../images/05/34.jpg"  >
 
 
-Realizado la anterior vamos a ir a nuestra opción de Análisis y arrastraremos la opción de pronósticos a nuestro grafico en automático nos aparecerá la opción pronostico ahí la soltaremos como mostramos en la siguiente imagen:
+Una vez hecho la anterior vamos a ir a nuestra opción de Análisis y arrastraremos la opción de pronósticos a nuestro grafico en automático nos aparecerá la opción pronostico ahí la soltaremos como mostramos en la siguiente imagen:
 
 <img src="../images/05/35.jpg"  >
 
@@ -201,7 +201,7 @@ Ahora vamos a crear otra tabla de trabajo en la cual colocaremos el nombre a est
 
 <img src="../images/05/37.jpg"  >
 
-Realizado lo anterior vamos a ir a nuestra pestaña de análisis y arrastraremos la opción de Clúster, lo que observamos al realizar esta configuración es que nos agrupara los valores en base al crecimiento para ellos vamos a ordenar de manera Ascendente nuestra información para obtener el resultado como muestra en la siguiente imagen: 
+Una vez hecho lo anterior vamos a ir a nuestra pestaña de análisis y arrastraremos la opción de Clúster, lo que observamos al realizar esta configuración es que nos agrupara los valores en base al crecimiento para ellos vamos a ordenar de manera Ascendente nuestra información para obtener el resultado como muestra en la siguiente imagen: 
 
 <img src="../images/05/38.jpg"  >
 
@@ -213,7 +213,7 @@ Echo lo anterior vamos a formatear el campo de nombre y colocaremos la alineaci�
 
 <img src="../images/05/40.jpg"  >
 
-Realizado el formateo vamos a dirigirnos a nuestra pestaña de Análisis y vamos a arrastra la opción de línea de referencia que es igual que nuestras opciones de línea de constante y línea de promedio, vamos a arrastrarla y observemos que nos aparecen también las opciones de formateo como las líneas, nosotros vamos a seleccionar la parte de panel como se muestra en la siguiente imagen:
+Una vez hecho el formateo vamos a dirigirnos a nuestra pestaña de Análisis y vamos a arrastra la opción de línea de referencia que es igual que nuestras opciones de línea de constante y línea de promedio, vamos a arrastrarla y vamos a observar que nos aparecen también las opciones de formateo como las líneas, nosotros vamos a seleccionar la parte de panel como se muestra en la siguiente imagen:
 
 <img src="../images/05/41.jpg"  >
 
@@ -241,7 +241,7 @@ Ahora vamos a revisar el Diagrama de Caja, para ello vamos a crear otra hoja de 
 
 <img src="../images/05/47.jpg"  >
 
-Realizado lo anterior arrastramos desde nuestra pestaña de análisis la opción de Diagrama de caja y realizamos la siguiente configuración: 
+Una vez hecho lo anterior arrastramos desde nuestra pestaña de análisis la opción de Diagrama de caja y realizamos la siguiente configuración: 
 
 <img src="../images/05/48.jpg"  >
 
@@ -249,7 +249,7 @@ El resultado final seria
 
 <img src="../images/05/49.jpg"  >
 
-Ahora para este siguiente desarrollo, vamos nosotros a crear gráficos avanzados con los cuales nosotros configuraremos con una seria de combinaciones, para esto vamos a crear una nueva hoja y le colocaremos el nombre de Donas, creada esta nueva hoja vamos a arrastrar el campo Job Title en la parte de filas y Salarios en la parte de Datos como se muestra en la siguiente imagen:
+Ahora para este siguiente desarrollo, vamos nosotros a crear gráficos avanzados con los cuales nosotros configuraremos con una seria de combinaciones, para esto vamos a crear una nueva hoja y le colocaremos el nombre de Donas, creada esta nueva hoja vamos a arrastrar el campo `Job Title` en la parte de filas y Salarios en la parte de Datos como se muestra en la siguiente imagen:
 
 <img src="../images/05/50.jpg"  >
 
@@ -257,22 +257,22 @@ Ahora en la parte de Mostrar vamos a establecer el Grafico Circular y después c
 
 <img src="../images/05/51.jpg"  >
 
-Ahora vamos a dar doble clic sobre la parte de columnas y colocaremos le número 1 , después daremos clic nuevamente y colocaremos el numero 2 esto para crear 2 gráficos de pastel, realizada esta parte vamos a observar que en la parte de Marcas nos aparecen los 2 gráficos, editaremos el grafico 2 donde quitaremos el campo Job Title y Salario para que nos quede un círculo gris y en el grafico 1 solo aumentaremos el tamaño de este.
+Ahora vamos a dar doble clic sobre la parte de columnas y colocaremos le número 1 , después daremos clic nuevamente y colocaremos el numero 2 esto para crear 2 gráficos de pastel, realizada esta parte vamos a observar que en la parte de Marcas nos aparecen los 2 gráficos, editaremos el grafico 2 donde quitaremos el campo `Job Title` y Salario para que nos quede un círculo gris y en el grafico 1 solo aumentaremos el tamaño de este.
 
 <img src="../images/05/52.jpg"  >
 
-Ahora donde tenemos el 1 y 2 en columna daremos clic sobre cada uno y seleccionaremos la opción dimensión, ahora daremos clic sobre el eje 2 y seleccionaremos la opción que dije Eje Doble
+Ahora donde tenemos el 1 y 2 en columna daremos clic sobre cada uno y seleccionaremos la opción dimensión, Ahora daremos clic sobre el eje 2 y seleccionaremos la opción que dije Eje Doble
 
 <img src="../images/05/53.jpg"  >
 Ahora vamos a dar clic sobre marcas y seleccionaremos el eje 2 en el cual personalizaremos su color de gris a blanco y adaptaremos su tamaño en lo posterior nos iremos a eje 1 y seleccionaremos mostrar etiquetas como se muestra en las siguientes imágenes:
 
 <img src="../images/05/54.jpg"  >
 
-Personalicemos más este grafico de pastel, vamos a desactivar las etiquetas y en el eje 1 vamos a arrastrar a el módulo de etiquetas el campo Job Title y en el eje 2 vamos arrastra a etiquetas el campo Salario dando como resultado las siguientes imágenes:
+Personalicemos más este grafico de pastel, vamos a desactivar las etiquetas y en el eje 1 vamos a arrastrar a el módulo de etiquetas el campo `Job Title` y en el eje 2 vamos arrastra a etiquetas el campo Salario dando como resultado las siguientes imágenes:
 
 <img src="../images/05/55.png"  >
 
-Ahora vamos a crear una nueva hoja y colocaremos como nombre porcentaje, vamos arrastra a la parte de columnas años, en la parte de filas salario, aplicaremos dentro de marcar en la parte de colores el Puesto (Job Title), 
+Ahora vamos a crear una nueva hoja y colocaremos como nombre porcentaje, vamos arrastra a la parte de columnas años, en la parte de filas salario, aplicaremos dentro de marcar en la parte de colores el Puesto (`Job Title`), 
 
 <img src="../images/05/56.jpg"  >
 
@@ -284,15 +284,15 @@ Vamos a personalizar una más este grafico para ellos daremos clic de nuevo sobr
 
 <img src="../images/05/58.jpg"  >
 
-Ahora vamos a crear otro tipo de grafico para ellos colocaremos a una nueva hoja el nombre de Grafico Totales, vamos a arrastrar el campo Job Title en la parte de filas, también colocaremos Nombre y en la parte de filas colocaremos el salario: 
+Ahora vamos a crear otro tipo de grafico para ellos colocaremos a una nueva hoja el nombre de Grafico Totales, vamos a arrastrar el campo `Job Title` en la parte de filas, también colocaremos Nombre y en la parte de filas colocaremos el salario: 
 
 <img src="../images/05/59.jpg"  >
 
-Ahora presionando la tecla control y arrastramos de columna la parte de salario, observaremos que nos va a crear una segunda columna con esa data, ahora en esa segunda columna daremos clic y seleccionaremos cálculo de trabajo rápido y seleccionaremos clasificación  
+Ahora presionando la tecla control y arrastramos de columna la parte de salario, observaremos que nos va a crear una segunda columna con esa data, Ahora en esa segunda columna daremos clic y seleccionaremos cálculo de trabajo rápido y seleccionaremos clasificación  
 
 <img src="../images/05/60.jpg"  >
 
-Ya que formateamos nuestra segunda columna de barras por clasificaciones, ahora vamos a dar de nuevo clic sobre el segundo campo valor de salario en columna y seleccionaremos calcular usando y después nombre, por último daremos de nuevo clic derecho a esta segunda columna y daremos clic en mostrar filtro, esto nos ayudara a activar un filtro de clasificación de salarios, realizado esto eliminaremos la segunda columna y observemos que podemos organizar nuestros valores dependiendo el número de clasificación de 1 hasta 5 o de 1 hasta 10.
+Ya que formateamos nuestra segunda columna de barras por clasificaciones, Ahora vamos a dar de nuevo clic sobre el segundo campo valor de salario en columna y seleccionaremos calcular usando y después nombre, por último daremos de nuevo clic derecho a esta segunda columna y daremos clic en mostrar filtro, esto nos ayudara a activar un filtro de clasificación de salarios, Una vez hecho esto eliminaremos la segunda columna y vamos a observar que podemos organizar nuestros valores dependiendo el número de clasificación de 1 hasta 5 o de 1 hasta 10.
 
 <img src="../images/05/61.jpg"  >
 
@@ -300,7 +300,7 @@ El resultado después de eliminar la segunda columna de salario y aplicado el fi
 
 <img src="../images/05/62.jpg"  >
 
-Ahora vamos a crear otra hoja nueva de trabajo donde le colocaremos le nombre de Lollipop, aquí vamos a arrastra en la parte de filas el título de trabajo(Job Title), en columnas colocaremos Salario y con la tecla control arrastraremos nuestro campo de columnas salario para crear 2 columnas en nuestro grafico como se muestra a continuación:
+Ahora vamos a crear otra hoja nueva de trabajo donde le colocaremos le nombre de Lollipop, aquí vamos a arrastra en la parte de filas el título de trabajo(`Job Title`), en columnas colocaremos Salario y con la tecla control arrastraremos nuestro campo de columnas salario para crear 2 columnas en nuestro grafico como se muestra a continuación:
 
 <img src="../images/05/63.jpg"  >
 
@@ -308,19 +308,19 @@ Ahora en la segunda opción de salario daremos clic sobre él y seleccionaremos 
 
 <img src="../images/05/64.jpg"  >
 
-Realizado lo anterior observemos en la caja de nombre marcas nos aparecen varias casillas Todo, Sumada de salario 1 y Suma de salario 2, vamos a personaliza la segunda opción de Salario donde estableceremos en la lista desplegable donde dice Automático seleccionaremos la opción circulo y en la primera opción de salario en la misma lista desplegable seleccionaremos grafico de barra y obtendremos el siguiente resultado:
+Una vez hecho lo anterior vamos a observar en la caja de nombre marcas nos aparecen varias casillas Todo, Sumada de salario 1 y Suma de salario 2, vamos a personaliza la segunda opción de Salario donde estableceremos en la lista desplegable donde dice Automático seleccionaremos la opción circulo y en la primera opción de salario en la misma lista desplegable seleccionaremos grafico de barra y obtendremos el siguiente resultado:
 
 <img src="../images/05/65.jpg"  >
 
-Realizado lo anterior vamos a realizar algunos ajustes a nuestra primera opción de salario dentro de la caja de Marcas, primero vamos a reducir un poco el tamaño hasta una línea atrás, después vamos a cambiar de color y colocaremos un límite ahí mismo en colores de color negro, ahora haremos lo mismo en la segunda opción de salario solo que aquí vamos a agrandar hasta una línea después y las demás modificaciones aplicaran igual con distinto color como se muestra en la siguiente imagen:
+Una vez hecho lo anterior vamos a realizar algunos ajustes a nuestra primera opción de salario dentro de la caja de Marcas, primero vamos a reducir un poco el tamaño hasta una línea atrás, después vamos a cambiar de color y colocaremos un límite ahí mismo en colores de color negro, Ahora haremos lo mismo en la segunda opción de salario solo que aquí vamos a agrandar hasta una línea después y las demás modificaciones aplicaran igual con distinto color como se muestra en la siguiente imagen:
 
 <img src="../images/05/66.jpg"  >
 
-Realizado lo anterior el resultado será el siguiente:
+Una vez hecho lo anterior el resultado será el siguiente:
 
 <img src="../images/05/67.jpg"  >
 
-Ahora vamos a crear una nueva hoja que le colocaremos de nombre World Cloud, aquí arrastraremos en filas lo Títulos de trabajo y en la parte de columnas colocaremos el Salario, ahora nos iremos a mostrar y seleccionaremos el grafico de mapa de calor como se muestra en la imagen:
+Ahora vamos a crear una nueva hoja que le colocaremos de nombre World Cloud, aquí arrastraremos en filas lo Títulos de trabajo y en la parte de columnas colocaremos el Salario, Ahora nos iremos a mostrar y seleccionaremos el grafico de mapa de calor como se muestra en la imagen:
 
 <img src="../images/05/68.jpg"  >
 
@@ -329,7 +329,7 @@ Creado lo anterior vamos a irnos a nuestra caja de marcas y en la lista desplega
 <img src="../images/05/69.jpg"  >
 
 
-Ahora vamos a crear otra hoja de trabajo que la nombraremos Línea Diferencial, para este grafico presionando la tecla Control vamos a seleccionar Job Title, Max Salary, Min Salary , así se quedaran señalados nos iremos a la herramienta de mostrar y seleccionaremos la opción de Tabla de Texto como se muestra en las siguientes imágenes:
+Ahora vamos a crear otra hoja de trabajo que la nombraremos Línea Diferencial, para este grafico presionando la tecla Control vamos a seleccionar `Job Title`, Max `Salary`, Min `Salary` , así se quedaran señalados nos iremos a la herramienta de mostrar y seleccionaremos la opción de Tabla de Texto como se muestra en las siguientes imágenes:
 
 <img src="../images/05/70.jpg"  >
 
@@ -341,28 +341,28 @@ Ahora con la tecla control vamos a duplicar nuestra medida que está en la parte
 
 <img src="../images/05/72.jpg"  >
 
-El resultado que obtendremos será un gráfico de línea, ahora vamos a ir a nuestra herramienta de Marcas y arrastraremos nombre de medida hacia la opción de ruta para obtener el siguiente grafico:
+El resultado que obtendremos será un gráfico de línea, Ahora vamos a ir a nuestra herramienta de Marcas y arrastraremos nombre de medida hacia la opción de ruta para obtener el siguiente grafico:
 
 <img src="../images/05/73.jpg"  >
 
-Ahora como ultimo toque vamos a ir a nuestro valor de medida 1 y vamos a modificar el tamaño un poco más grande, realizado esto vamos a dar clic derecho sobre el grafico y presionaremos la opción sincronizar eje y obtendremos el siguiente resultado:
+Ahora como ultimo toque vamos a ir a nuestro valor de medida 1 y vamos a modificar el tamaño un poco más grande, Una vez hecho esto vamos a dar clic derecho sobre el grafico y presionaremos la opción sincronizar eje y obtendremos el siguiente resultado:
 
 
 <img src="../images/05/74.jpg"  >
 
-Ahora vamos a crear otra hoja a la cual la nombraremos Barra dentro de Barra, aquí vamos a arrastrar el campo Country Name a filas y salario al campo de valores, en la parte de nuestra herramienta mostrar seleccionaremos el grafico de barra para obtener el siguiente resultado:
+Ahora vamos a crear otra hoja a la cual la nombraremos Barra dentro de Barra, aquí vamos a arrastrar el campo `Country Name` a filas y salario al campo de valores, en la parte de nuestra herramienta mostrar seleccionaremos el grafico de barra para obtener el siguiente resultado:
 
 <img src="../images/05/75.jpg"  >
 
-Realizado lo anterior, ahora vamos arrastra a colores el campo de año , echo eso vamos a dar clic sobre año y activaremos el filtrado por año como se muestra en la imagen: 
+Una vez hecho lo anterior, Ahora vamos arrastra a colores el campo de año , echo eso vamos a dar clic sobre año y activaremos el filtrado por año como se muestra en la imagen: 
 
 <img src="../images/05/76.jpg"  >
 
-Ahora vamos a configurar las barras para ellos nos iremos al menú de análisis, iremos a la opción Apilar Marcas y lo desactivaremos,  ahora en nuestra herramienta de marcas con la letra control arrastraremos años y lo colocaremos sobre la opción de tamaño y nos mostrara el siguiente grafico:
+Ahora vamos a configurar las barras para ellos nos iremos al menú de análisis, iremos a la opción Apilar Marcas y lo desactivaremos,  Ahora en nuestra herramienta de marcas con la letra control arrastraremos años y lo colocaremos sobre la opción de tamaño y nos mostrara el siguiente grafico:
 
 <img src="../images/05/77.jpg"  >
 
-Ahora vamos a crear nuestro ultimo grafico avanzado y nombraremos a esta hoja como Barra de Colores – Unicode, vamos a arrastrar el campo de Job Title, Nombre  a la parte de filas  y salario a la parte de Datos.
+Ahora vamos a crear nuestro ultimo grafico avanzado y nombraremos a esta hoja como Barra de Colores – `Unicode`, vamos a arrastrar el campo de `Job Title`, Nombre  a la parte de filas  y salario a la parte de Datos.
 
 
 <img src="../images/05/78.jpg"  >
@@ -370,11 +370,11 @@ Ahora vamos a crear nuestro ultimo grafico avanzado y nombraremos a esta hoja co
 Ahora en nuestra herramienta de mostrar vamos a seleccionar grafico en barra y este lo configuraremos de forma Descendente
 
 <img src="../images/05/79.jpg"  >
-Ahora con la tecla control vamos a selecciona Job Title y Nombre para crear una dimensión y los arrastraremos a la opción de colores.
+Ahora con la tecla control vamos a selecciona `Job Title` y Nombre para crear una dimensión y los arrastraremos a la opción de colores.
 
 <img src="../images/05/80.jpg"  >
 
-Ahora vamos a personalizar vamos a invertir las cosas de nuestra medida dentro de Marcas subiremos Job Title y abajo quedara nombre a demás colocaremos la opción de marcas como se muestra en la siguiente imagen:
+Ahora vamos a personalizar vamos a invertir las cosas de nuestra medida dentro de Marcas subiremos `Job Title` y abajo quedara nombre a demás colocaremos la opción de marcas como se muestra en la siguiente imagen:
 
 <img src="../images/05/81.jpg"  >
 
@@ -393,7 +393,7 @@ Ahora creado este campo calculado vamos a arrastrarlo al campo etiquetas dentro 
 
 <img src="../images/05/84.jpg"  >
 
-También nosotros podemos programar nuestro top por título de trabajo para ellos iremos a nuestra herramienta de Marcas y daremos clic cobre Unicode, aquí seleccionaremos editar cálculo de tabla y nos aparecerá un cuadro de dialogo donde activaremos A nivel más Profundo y la opción de reiniciado cada seleccionaremos Job Title
+También nosotros podemos programar nuestro top por título de trabajo para ellos iremos a nuestra herramienta de Marcas y daremos clic cobre `Unicode`, aquí seleccionaremos editar cálculo de tabla y nos aparecerá un cuadro de dialogo donde activaremos A nivel más Profundo y la opción de reiniciado cada seleccionaremos `Job Title`
 
 <img src="../images/05/85.jpg"  >
 
@@ -402,6 +402,6 @@ También nosotros podemos programar nuestro top por título de trabajo para ello
 Objetivo: Desarrollar un dashboard de control que permita a los usuarios visualizar y analizar datos de manera eficiente, utilizando diversas funcionalidades de Tableau como filtros, gráficos dinámicos, y acciones interactivas. El objetivo es que los participantes adquieran habilidades prácticas en la creación de dashboards que faciliten la toma de decisiones basada en datos, aplicando buenas prácticas de diseño y usabilidad.
 Instrucción: En base a lo aprendida hasta el momento es necesario realizar un dashboard donde combinemos las diferentes gráficas, tablas, filtros, colores que nos ayude a transmitir la historia que nuestro data set está trasmitiendo:
 1.- Utilizarás las bases de datos que se te proporcionaran.
-2.- Este Dashboard debe de ser lo más parecido a la imagen 
+2.- Este `Dashboard` debe de ser lo más parecido a la imagen 
 
 <img src="../images/05/86.jpg"  >
