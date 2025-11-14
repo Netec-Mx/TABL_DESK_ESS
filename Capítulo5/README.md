@@ -103,19 +103,19 @@ Creado el grafico de salarios, ve a la pestaña `Análisis`, para conocer más d
 | ------------- | ------------- |
 | Pestaña de análisis  | Herramienta para explorar patrones, tendencias y detalles en datos. |
 | Arrastrar y soltar objetos analíticos | Líneas, bandas, áreas, totales → destacan aspectos clave.  |
-| Líneas de referencia  | Promedios, medianas, mínimos o máximos → contextualizan datos  |
-| Barras de referencia  | Marcan rangos o límites específicos en la visualización |
-| Líneas de tendencia  | Muestran comportamiento en el tiempo o frente a otra variable (lineal, exponencial, logarítmico) |
-| Previsiones | Proyectan tendencias futuras con base en datos históricos |
+| Líneas de referencia  | Promedios, medianas, mínimos o máximos → contextualizan datos.  |
+| Barras de referencia  | Marcan rangos o límites específicos en la visualización. |
+| Líneas de tendencia  | Muestran comportamiento en el tiempo o frente a otra variable (lineal, exponencial, logarítmico). |
+| Previsiones | Proyectan tendencias futuras con base en datos históricos. |
 | Cálculos rápidos de tabla  | Porcentajes, diferencias, totales → aplicados desde la pestaña `Análisis`.  |
-| Resaltado | Reglas para identificar valores atípicos o áreas de interés  |
-| Agrupación y clústeres  | Grupos automáticos según similitudes en los datos  |
+| Resaltado | Reglas para identificar valores atípicos o áreas de interés.  |
+| Agrupación y clústeres  | Grupos automáticos según las similitudes en los datos.  |
 
 Suelta y observa que se solicita un valor; para este ejemplo, coloca  $12,000  que será la línea constante, esta sirve para analizar los datos que sobrepasen este tope de valor, es por ello que a lo largo del gráfico debes colocar una línea horizontal con un valor de 12,000.
 
 <img src="../images/05/16.jpg"  >
 
-Esta constante también se puede formatear si fuera la necesidad desde cambiar el valor hasta personalizar la línea dando clic sobre él aparecerá un menú donde puedes acceder a estos ajustes como se muestra en la siguiente imagen:
+Esta constante también se puede formatear si tuvieras la necesidad de cambiar el valor hasta personalizar la línea dando clic; sobre él, aparecerá un menú donde puedes acceder a estos ajustes como se muestra en la siguiente imagen:
 
 <img src="../images/05/17.jpg"  >
 
@@ -147,7 +147,7 @@ Justo esta opción te ayudará a ver el promedio por cada una de las celdas o co
 
 <img src="../images/05/24.jpg"  >
 
-Ahora observa la configuración dada cuando arrastras la opción `Mediana con Cuartiles`, esta opción mostrará la media por grupo (año) el cuartil inferior y superior para brindar una media de salarios, como se muestra en la siguiente imagen:
+Ahora, observa la configuración dada cuando arrastras la opción `Mediana con Cuartiles`, esta opción mostrará la media por grupo (año) el cuartil inferior y superior para brindar una media de salarios, como se muestra en la siguiente imagen:
 
 <img src="../images/05/25.jpg"  >
 
@@ -160,31 +160,31 @@ Ahora, conocerás el análisis de tipo de modelo, para este desarrollo crearás 
 <img src="../images/05/27.jpg"  >
 
 
-Ahora colocados los datos solicitados formatear el apartado de nombre dando clic derecho sobre nombre y selecciona  la opción Formatear como se muestra a continuación:
+Ahora colocados los datos solicitados, formatea el apartado de nombre dando clic derecho sobre nombre y selecciona la opción `Formatear` como se muestra a continuación:
 
 <img src="../images/05/28.jpg"  >
 
-Ahora formateado los nombres, ir a la pestaña de análisis y selecciona  la primer opción Promedio por intervalo de confianza, este promedio es el que ayuda a estimar un determinado nivel de confianza mediante un estudio obtenido o un rango obtenido sobre una media y su representación gráfica es la siguiente, para ellos selecciona  la opción a nivel de panel, como se muestra en la siguiente imagen:
+Ahora formateados los nombres, ve a la pestaña de análisis y selecciona la primera opción `Promedio por intervalo de confianza`, este promedio ayuda a estimar un determinado nivel de confianza mediante un estudio obtenido o un rango obtenido sobre una media y su representación gráfica es la siguiente; para ello, selecciona  la opción a nivel de panel, como se muestra en la siguiente imagen.
 
 <img src="../images/05/29.jpg"  >
 
-Eliminas el ejemplo anterior y Ahora análisis y arrastra  la opción Media con intervalo de confianza, este análisis ayudara a estimar el grado de imprecisión de la estimación; es inversamente proporcional al tamaño de la muestra, la estimación se hace para un determinado nivel de confianza, usualmente 95% o 99% y para poder realizarla solo basta con arrastrar hacia la gráfica y aparecerán las diferentes formas en la que la puedes representar para este ejemplo selecciona  la opción panel.
+Elimina el ejemplo anterior y ahora realiza un análisis: arrastra la opción `Media con intervalo de confianza`, este análisis ayudará a estimar el grado de imprecisión de la estimación; es inversamente proporcional al tamaño de la muestra. La estimación se hace para un determinado nivel de confianza, usualmente 95 o 99 % y para poder realizarla solo basta con arrastrar hacia la gráfica y aparecerán las diferentes formas en la que la puedes representar. Para este ejemplo, selecciona  la opción panel.
 
 <img src="../images/05/30.jpg"  >
 
-Ahora crear otra hoja de trabajo para trabajar las opciones de análisis a nivel tendencia para ellos nombra  con ese nombre la hoja, para este ejercicio será necesario arrastrar los campos Máximo salario a la parte de columnas y Mínimo Salario a la parte de Filas como se muestra en la imagen.
+Ahora, crea otra hoja de trabajo para trabajar las opciones de análisis a nivel tendencia; para ello, nombra la hoja. Para este ejercicio, será necesario arrastrar los campos `Salario Máximo` a la parte de columnas y `Salario Mínimo` a la parte de Filas como se muestra en la imagen.
 
 <img src="../images/05/31.jpg"  >
 
-Ya con estos datos colocados en la tabla de trabajo, i  a la tabla de análisis y antes de trabajar con las opciones de tendencia agregar también año en el apartado de detalles en la caja de herramientas, como se muestra en la siguiente imagen.
+Ya con estos datos colocados en la tabla de trabajo, ve a la tabla de análisis y antes de trabajar con las opciones de tendencia agrega también el año en el apartado de detalles en la caja de herramientas, como se muestra en la siguiente imagen.
 
 <img src="../images/05/32.jpg"  >
 
-Ahora si con este último ajuste la pestaña de Análisis y observar que tenemos disponible ya Línea de Tendencia, Pronostico y Clúster, iniciar con la opción de línea de tendencia arrastra  la opción al gráfico y selecciona  la opción de manera lineal como se muestra en la siguiente imagen:
+Con este último ajuste, la pestaña de `Análisis` y observa que tienes disponible ya la `Línea de Tendencia`, `Pronóstico` y `Clúster`; inicia con la opción de línea de tendencia, arrastra la opción al gráfico y selecciona la opción de manera lineal como se muestra en la siguiente imagen.
 
 <img src="../images/05/33.jpg"  >
 
-Para el siguiente ejercicio crear otra tabla de trabajo en la cual coloca  el nombre de Pronostico, creada esta nueva hoja de trabajo, arrastrar el campo de Año a columnas y Salario a filas,  en la opción mostrar seleccionar el grafico de barras y lo coloca  de manera Vertical como se muestra en la siguiente imagen:  
+Para el siguiente ejercicio, crea otra tabla de trabajo para colocar el nombre de `Pronóstico`, creada esta nueva hoja de trabajo, arrastra el campo de `Año a columnas` y `Salario a filas`. En la opción `Mostrar`, selecciona el grafico de barras y lo coloca  de manera Vertical como se muestra en la siguiente imagen:  
 
 <img src="../images/05/34.jpg"  >
 
@@ -268,7 +268,7 @@ Ahora dar clic sobre marcas y selecciona  el eje 2 en el cual personaliza  su co
 
 <img src="../images/05/54.jpg"  >
 
-Personalicemos más este grafico de pastel, desactivar las etiquetas y en el eje 1 arrastrar a el módulo de etiquetas el campo `Job Title` y en el eje 2 vas arrastra a etiquetas el campo Salario dando como resultado las siguientes imágenes:
+Personaliza más este gráfico de pastel, desactivar las etiquetas y en el eje 1 arrastrar a el módulo de etiquetas el campo `Job Title` y en el eje 2 vas arrastra a etiquetas el campo Salario dando como resultado las siguientes imágenes:
 
 <img src="../images/05/55.png"  >
 
@@ -276,7 +276,7 @@ Ahora crear una nueva hoja y coloca  como nombre porcentaje, vas arrastra a la p
 
 <img src="../images/05/56.jpg"  >
 
-Creado lo anterior es necesario formatear el salario a nivel porcentaje del total para ellos da  clic sobre salario en la parte de columnas y selecciona  la opción de cálculo rápido y aplica  la opción de porcentaje en el Total.
+Con lo anterior creado, es necesario formatear el salario a nivel porcentaje del total para ellos da  clic sobre salario en la parte de columnas y selecciona  la opción de cálculo rápido y aplica  la opción de porcentaje en el Total.
 
 <img src="../images/05/57.jpg"  >
 
