@@ -40,10 +40,9 @@ En esta sección, arrastrarás campos a los estantes de `Columnas` y `Filas` y t
 | C y D. `Tarjetas y estantes` | Las tarjetas son contenedores para los distintos controles disponibles en Tableau. Los estantes son un tipo de control de tarjeta. Al arrastrar campos del panel Datos a los estantes `Columnas` o `Filas`, los datos se agregan como una columna o una fila en los ejes de la vista. Al arrastrar campos del panel `Datos` a la tarjeta `Marcas`, puedes controlar propiedades visuales como tipo, color, tamaño, forma y mucho más. Esta acción afectará solamente a las marcas de la vista; los ejes no cambian. |
 | E. `Ocultar o mostrar tarjetas` | ¿Ocultaste una tarjeta sin querer y ahora la necesitas? No hay problema. Casi todo el contenido del área de trabajo se puede activar o desactivar para proporcionar el máximo espacio para crear sus visualizaciones. Para mostrar u ocultar tarjetas como `Páginas`, `Filtros` o `Leyendas`, haz clic en la flecha desplegable del botón `Ocultar o mostrar tarjetas` en la barra de herramientas o activa la marca de verificación para la tarjeta. Incluso puedes contraer el panel `Datos y análisis` a la esquina inferior izquierda del área de trabajo haciendo clic en el botón minimizar `Datos y análisis` que se encuentra en la esquina superior izquierda del panel. Vuelve a hacer clic en el botón para restaurar el panel. | 
 
-
 1. Desde el panel `Datos`, arrastra `Fecha de pedido` al estante `Columnas`.
 
-> [!NOTE]
+> **Nota**
 > Al arrastrar `Order Date` al estante `Columnas`, Tableau crea una columna para cada año en el conjunto de datos. Debajo de cada columna hay un indicador `Abc`. Indica que aquí puedes arrastrar texto o datos numéricos, como lo que puedes ver en una hoja de cálculo de Excel. Si arrastras `Sales` a esta área, Tableau crea una tabulación cruzada (como una hoja de cálculo) y muestra el total de ventas para cada año.
 
 2. Desde el panel `Datos`, arrastra `Sales` al estante `Filas`.
@@ -67,7 +66,7 @@ Por ejemplo, para un gráfico de áreas, puedes seleccionar `Área`.
 
 Tableau admite muchos tipos de gráficos distintos, conocidos como tipos de `Marca`. 
 
-> [!NOTE]
+> **Nota**
 > Antes de seguir con el tutorial, asegúrate de revertir el tipo de gráfico a `Automático`.
 
 
@@ -97,7 +96,7 @@ A continuación, se muestra la descripción emergente de la categoría Office Su
 Para añadir información de punto de datos como etiquetas a la vista, haz clic en `Mostrar etiquetas de marca` en la barra de herramientas. 
 Abajo se muestran las ventas totales para cada año y categoría.
 
-> [!NOTE]
+> **Nota**
 > En el tutorial **Introducción**, las etiquetas de texto no se agregan a la vista.
 
 <img src="../images/02/07.png" width="500" >
@@ -107,7 +106,7 @@ Abajo se muestran las ventas totales para cada año y categoría.
 
 Para mostrar el gráfico de barras horizontalmente, en lugar de verticalmente, haz clic en `Intercambiar filas y columnas` en la barra de herramientas.
 
-> [!NOTE]
+> **Nota**
 > Deshaz esta acción antes de continuar con el tutorial **Introducción**
 
 <img src="../images/02/08.png" width="900" >
@@ -120,7 +119,7 @@ Para responder a esta pregunta, decide ver los productos por subcategoría para 
 
 2. Haz doble clic en `Sub-Category` o arrástrala al estante `Columnas`.
 
-> [!NOTE]
+> **Nota**
 > Puedes arrastrar y soltar o hacer doble clic en un campo para agregarlo a la vista, pero tenga cuidado. Tableau presupone dónde agregar los datos y puede que no los coloque en donde esperabas. Siempre puedes hacer clic en `Deshacer` para eliminar el campo o arrastrarlo fuera del área donde Tableau lo colocó y empezar de nuevo.
 
 `Sub-Category` es otro campo discreto. Crea otro encabezado al final de la vista y muestra una barra para cada subcategoría (68 marcas) desglosada por categoría y año.
@@ -135,7 +134,7 @@ Si deseas ver cómo los productos contribuyen a las ventas generales por categor
 
 Si arrastras la `Sub-Category` a `Color` en la tarjeta `Marcas`, puedes crear un gráfico de barras apiladas con marcas adicionales para cada subcategoría identificada por un único color. Tableau muestra automáticamente una leyenda a la derecha para los valores de subcategoría.
 
-> [!NOTE]
+> **Nota**
 > Deshaz esta acción antes de continuar con el tutorial **Introducción**.
 
 <img src="../images/02/10.png" width="900" >
