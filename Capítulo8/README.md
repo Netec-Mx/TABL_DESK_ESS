@@ -34,12 +34,13 @@ Al finalizar la práctica, serás capaz de:
 Desarrolla un dashboard que permita analizar la cantidad de toneladas de fruta exportadas a clientes de distintos países.
 
 Requerimientos:
-•	Cantidad de toneladas por cliente.
-•	Cantidad de toneladas por empresa.
-•	Cantidad de toneladas de clientes por fruta.
-•	Ganancias de exportación por país.
-•	% de las ganancias por país respecto al monto total.
-•	% de las exportaciones en toneladas por país.
+
+- Cantidad de toneladas por cliente.
+- Cantidad de toneladas por empresa.
+- Cantidad de toneladas de clientes por fruta.
+- Ganancias de exportación por país.
+- % de las ganancias por país respecto al monto total.
+- % de las exportaciones en toneladas por país.
 
 
 <img src="../images/08/04.png"  >
