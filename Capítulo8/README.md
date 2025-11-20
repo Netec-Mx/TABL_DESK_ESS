@@ -20,11 +20,10 @@ Al finalizar la práctica, serás capaz de:
 
 ## Instrucciones 
 
-### Tarea 1. Conexión y Preparación de Datos
+### Tarea 1. Conexión y preparación de datos
+1.	Para este primer ejercicio, descarga el material de la carpeta Primer Proyecto / Data, que ya tienes disponible en el material proporcionado.
+2.	Analiza la data proporcionada y realiza una primera inspección para la limpieza de datos.
 
-1. Para este primer ejercicio es necesario descargar el material de la carpeta de nombre Primer Proyecto / Data, mismo que ya tiene en su alcance con el material que se les proporciono. 
-
-2. Lo primero que vamos a realizar es analizar la data que se nos está proporcionando y realizar nuestra primera inspección de limpieza de datos:
 
 <img src="../images/08/01.png"  >
 <img src="../images/08/02.png"  >
@@ -32,244 +31,253 @@ Al finalizar la práctica, serás capaz de:
 
 ### Tarea 2. Limpieza de datos
 
-*Objetivo:* Desarrollar una Dashboard que nos permita analizar la cantidad de Toneladas de fruta que se han exportado a los clientes de distintos países.
+Desarrolla un dashboard que permita analizar la cantidad de toneladas de fruta exportadas a clientes de distintos países.
 
-¿ Que se requiere ? 
-- Cantidad de Toneladas por Cliente.
-- Cantidad de Toneladas por Empresa.
-- Cantidad de Tonelada de Clientes por Fruta.
-- Ganancias de Exportación por País.
-- % de las Ganancias de los Países del Monto Total.
-- % de las Exportaciones en Toneladas por País.
+Requerimientos:
+•	Cantidad de toneladas por cliente.
+•	Cantidad de toneladas por empresa.
+•	Cantidad de toneladas de clientes por fruta.
+•	Ganancias de exportación por país.
+•	% de las ganancias por país respecto al monto total.
+•	% de las exportaciones en toneladas por país.
+
 
 <img src="../images/08/04.png"  >
 
 
-Ya que conocemos el objetivo y los puntos que nos están solicitado, es momento de organizar la data por lo cual te pido crear una carpeta dentro de equipo de cómputo donde organicemos de la siguiente manera los archivos:
+Organiza la data creando una carpeta en tu equipo para estructurar los archivos. 
 
 <img src="../images/08/05.png"  >
 
-Lo primero es organizar nuestro archivo para posterior mente a esto ahora si vamos a crear nuestra conexión de nuestra data a nuestra aplicación Tableau.
+Luego, conecta los distintos archivos en Tableau.
 
-Lo primero que tenemos que hacer es conectar los distintos archivos de data que tenemos en nuestro desarrollo para ellos vamos a abrir nuestra aplicación de Tableau Desktop e iremos a la primera pantalla junto donde aparecen el letrero CONECTAR
+- Abre Tableau Desktop, ve a la primera pantalla junto donde aparece `CONECTAR`.
 
 <img src="../images/08/06.jpg"  >
 
-Vamos a conectar primero nuestra data generada en Excel (Data Exportaciones), presionamos abrir 
+- Conecta el archivo Excel Data Exportaciones.
 
 <img src="../images/08/07.jpg"  >
 
-al dar clic en abrir nos colocara nuestra data ya en nuestra paleta de datos , ahora vamos a exportar esta información a nuestro aplicativo, arrastrando primero DATA EXPORTACIONES y posteriormente CLIENTES.
-OJO Observemos que cuando arrastramos ambas hojas (data) en automático el aplicativo crea una conexión, crear una relación entre ambas tablas.
+- Arrastra `DATA EXPORTACIONES` y, posteriormente, `CLIENTES`.
 
 <img src="../images/08/08.jpg"  >
 
 
-Ahora nos toca crear la conexión con nuestro archivo TXT. de nombre FRUTAS, para ello procederemos a realizar lo siguiente:  
+•	Conecta el archivo TXT FRUTAS.
 
 <img src="../images/08/09.jpg"  >
 
-Ya que seleccionamos el tipo de data como texto, seleccionaremos nuestro texto formateado de FRUTAS dando clic en abrir.
+Ya que seleccionaste el tipo de data como texto, selecciona el texto formateado de `FRUTAS` dando clic en `Abrir`.
 
 <img src="../images/08/10.jpg"  >
 
 
-Realicemos el mismo proceso que realizamos con nuestra data de Excel, arrastremos a nuestra paleta de trabajo y observemos que en automático de nuevo crea esta relación de información.
+Realiza el mismo proceso que realizaste con la data de Excel, arrastra a la paleta de trabajo y observa que, en automátic,o de nuevo crea esta relación de información
 
 <img src="../images/08/11.jpg"  >
 
-Llego el momento de unir nuestra última data el CSV de nombre Empresas a nuestro proyecto en Tableau. 
+Une la última data el CSV de nombre Empresas al proyecto en Tableau.
 
 <img src="../images/08/12.jpg"  >
 
 
-Ya que dimos clic sobre data CSV , seleccionamos la carpeta empresas y damos clic sobre el archivo Empresas.
+Haz clic sobre `Data CSV`, selecciona la carpeta `Empresas` y da clic sobre el archivo `Empresas`.
 
 <img src="../images/08/13.jpg"  >
 
-Llego el momento crear esta conexión de datos, vamos a arrastrar nuestro archivo y observemos que sucede, este archivo debemos de enlazarlo directo a nuestro archivo principal.
+Crea esta conexión de datos, arrastra el archivo y observa qué sucede. Debes  enlazar este archivo directo al archivo principal.
 
 <img src="../images/08/14.jpg"  >
 
-Si observamos bien nos presenta un error al realizar nuestra relación , no identifica que campos unir, aquí la importancia de conocer nuestra data con la que vamos a trabajar para brinda una estructura correcta en esta primera fase y muy importante porque es nuestro cimiento de nuestro Dashboard.
+Presenta un error al realizar la relación, no identifica qué campos unir. De aquí la importancia de conocer la data con la que se trabajará, para brindar una estructura correcta en esta primera fase y porque es el cimiento del Dashboard
 
-¿ Como solucionarlo ?, es sencillo equipo vamos a unir nuestra data de ambos archivos con el campo Id Empresas.
+¿Cómo solucionarlo? Es sencillo:  une la data de ambos archivos con el campo ID `Empresas`.
 
 <img src="../images/08/15.jpg"  >
 
-Ahora que ya tenemos nuestras conexiones en nuestras diferentes conexiones de datos, llego el momento de realizar nuestra visualización de datos, lo primero es que vamos a aplicar un filtro a nivel Origen.
+Luego que ya tienes las conexiones en las diferentes conexiones de datos, llegó el momento de realizar la visualización de datos. Lo primero es  aplicar un filtro a nivel ` Origen `.
 
-Vamos a irnos a la pestaña de Hoja1 y vamos a seleccionar de nuestros datos DATA EXPORTACION seleccionaremos el cambo CANTIDAD EN KG
+Ve a la pestaña de `Hoja1` y selecciona los datos `DATA EXPORTACION ` selecciona el cambio `CANTIDAD EN KG`. 
 
 <img src="../images/08/16.jpg"  >
 
-Ya que estamos en nuestra pestaña de fuente de datos, vamos a dar clic en añadir filtros.
+Ya que estás en la pestaña de fuente de datos, da clic en `añadir filtros`.
 
 <img src="../images/08/17.jpg"  >
 
-Nos aparecerá la pantalla donde podemos aplicar los filtros, presionaremos en el botón añadir, nos aparecerán los distintos campos en los cuales podemos crear el filtrado, seleccionaremos CANTIDAD KG, esto nos activara un filtro de cantidades numérica en las cuales podemos coocar las diferentes variables.
+Aparecerá la pantalla donde puedes aplicar los filtros, presiona el botón `añadir`. Aparecerán los distintos campos, en los cuales puedes crear el filtrado, selecciona ` CANTIDAD KG `, esto activará un filtro de cantidades numérica en las cuales puedes colocar las diferentes variables.
 
 <img src="../images/08/18.jpg"  >
 
-Ahora apliquemos otro filtro, pero a nivel producto, seleccionaremos el campo FRUTAS, observemos que en automático nos aparece los distintos tipos de fruta a seleccionar de nuestro catálogo, para este ejercicio dejare sin seleccionar Palta y Plátano , lo que el filtro hará es solo darme el total de KG de esas frutas que seleccionamos.
+Luego aplica otro filtro, pero a nivel producto; selecciona el campo `FRUTAS`. Observa que en automático aparecen los distintos tipos de fruta a seleccionar en el catálogo. 
+Para este ejercicio, deja sin seleccionar `Palta` y `Plátano`; el filtro dará el total de KG de las frutas seleccionadas.
 
 <img src="../images/08/19.jpg"  >
 
-Justo si queremos visualizar este dato más a detallado y validar que en verdad está tomando solo las frutas que seleccionamos, deberemos de colocar en la parte de filas el campo frutas para que nos desglose ese total entre las frutas seleccionadas.
+Si quieres visualizar este dato más detallado y validar que en verdad está tomando solo las frutas que seleccionaste, debes colocar en la parte de filas el campo `frutas` para que desglose el total de las frutas seleccionadas.
 
 <img src="../images/08/20.jpg"  >
 
-Ahora aplicaremos teniendo nuestro filtro a nivel dato, un filtro a nivel vista, para ellos vamos a nuestra hoja 1 y nos posicionamos en nuestros datos de las frutas, observemos que al dar clic sobre nos habilita un filtrado donde podemos mantener solo ese producto o excluir de la lista ese producto.
+Luego aplica, teniendo el filtro a nivel dato, un filtro a nivel vista. Para ello, dirígete a la hoja y posiciónate en los datos de las frutas; observa que al dar clic, habilita un filtrado donde puedes mantener solo ese producto o excluir de la lista el producto.
 
 <img src="../images/08/21.jpg"  >
 
-También podemos mostrar nosotros nuestro filtro a nuestra tabla de trabajo, para ellos debemos de arrastrar al campo de filtros el dato de FRUTAS y podríamos también arrastrar la medida de TOTALES que ya se encuentra programada, pero ojo debemos presionar control para pasar nuestra medida a un filtro, como se muestra en las siguientes imágenes.
+También puedes mostrar el filtro a la tabla de trabajo, para ello debes arrastrar al campo de filtros el dato de `FRUTAS` y también arrastrar la medida de `TOTALES` que ya se encuentra programada. Sin embargo, debes presionar `control` para pasar la medida a un filtro, como se muestra en las siguientes imágenes. 
 
 <img src="../images/08/22.jpg"  >
 
-Estos filtros también podemos mejorarlos y configurarlos a necesidad del usuario, para ello nos posicionamos sobre el filtro y daremos clic sobre la flechita del filtro de frutas como se muestra en las imágenes.
+También puedes mejorar estos filtros y configurarlos a necesidad del usuario; para ello, posiciona sobre el filtro y da clic sobre la flecha del filtro de `FRUTAS`  como se muestra en las imágenes.
 
 <img src="../images/08/23.jpg"  >
 
 
-Ahora que aprendimos como colocar a más detalle nuestros filtros utilizando nuestra información llego el momento de ir armando nuestro primer proyecto , para ellos vamos a iniciar a combinar información en columnas y filas para que vallamos aprendiendo como utilizar estos campos con nuestros datos formateados.
+Luego que aprendiste cómo colocar a más detalle los filtros utilizando la información, llegó el momento de armar el primer proyecto; para ello, comienza a combinar información en columnas y filas para que vayas aprendiendo cómo utilizar estos campos con los datos formateados.
 
-Lo primero es que vamos a colocar en columnas nuestro dato de FRUTAS y en filas el campo o dato NOMBRE DE EMPRESAS.
+Lo primero es colocar en columnas el dato de `FRUTAS` y en filas el campo o dato `NOMBRE DE EMPRESAS`.
 
 <img src="../images/08/24.jpg"  >
 
-*Instrucción (Actividad sin instrucción guiada)*: En base a la base de datos que limpiamos anteriormente vamos a exportarla a nuestro programa de Tableau Desktop y vamos a crear lo siguiente Tabla de ventas total  por Cedis , Tabla de venta por VP Y Master y por último una Tabla de ventas por Articulo por Cedis
+#### Actividad sin instrucción guiada
+Exporta la base de datos previamente limpiada al programa Tableau Desktop y crea lo siguiente:
+
+- Una tabla de ventas total por CEDIS.
+- Una tabla de ventas por VP y Master.
+- Una tabla de ventas por artículo por CEDIS.
 
 
-### Tarea 3. Análisis y Filtros en Tableau
+### Tarea 3. Análisis y filtros en Tableau
 
-Ahora que ya tenemos un reporte general, vamos a ir desglosando este reporte , ahora vamos a iniciar la representación de los datos en modo de grafica para eso necesitamos colocar los siguientes datos en filas y columnas:
+Cuando tengas un reporte general, desglosa este reporte. Inicia la representación de los datos en modo de gráfica, para eso necesitas colocar los siguientes datos en filas y columnas.
 
 <img src="../images/08/25.jpg"  >
 
-Y de nuestro modelo de datos vamos arrastra de nuestra bd  DATA EXPORTACION el campo AÑO a la parte de Paginas.
+Del modelo de datos, arrastra de la bd `DATA EXPORTACIÓN` el campo `AÑO ` a la parte de `Páginas`.
 
 <img src="../images/08/26.jpg"  >
 
-El resultado que obtendremos de colocar esta configuración será una gráfica en barras de la siguiente manera:
+El resultado que obtendrás de colocar esta configuración será una gráfica en barras como la siguiente.
 
 <img src="../images/08/27.jpg"  >
 
-Ahora para facilitar la lectura de nuestros storytelling vamos a utilizar las herramientas para personalizar nuestro gráfico, para una mejor lectura las barras las colocaremos de manera vertical utilizando la siguiente herramienta: 
+Luego, para facilitar la lectura los _storytelling_ utiliza las herramientas para personalizar el gráfico. Para una mejor lectura, coloca las barras de manera vertical utilizando la siguiente herramienta.
 
 <img src="../images/08/28.jpg"  >
 
 
-El resultado al realizar este ajuste es el siguiente: 
+El resultado es el siguiente.
 
 <img src="../images/08/29.jpg"  >
 
-Ahora vamos a trabajar con la información y pivotearemos datos para que nos ayuden a personalizar la información que necesitamos mostrar, vamos a crear otra hoja de trabajo en esta hoja nueva de trabajo necesitamos crear una tabla de datos que nos muestre las ventas por cliente y país.
-Para ellos arrastraremos clientes a filas:
+Luego, trabaja con la información y pivotea los datos para que ayuden a personalizar la información que necesitas mostrar. Crea, en una nueva hoja de trabajo, una tabla de datos que muestre las ventas por cliente y país. Para ello, arrastra `clientes` a filas.
 
 <img src="../images/08/30.jpg"  >
 
-Y donde nos aparece el Abc ahí colocaremos de nuestra data de nombre Exportaciones, las ventas generadas en Canadá.
+Donde aparece el _Abc_, coloca en la data `Exportaciones `, las ventas generadas en Canadá.
 
 <img src="../images/08/31.jpg"  >
 
-Ahora aplicamos los mismo para los demás países, pero en vez de moverlos donde estaba el Abc , los colocaremos abajo en la parte de marcas sobre la opción de Texto:
+Luego, aplica lo mismo para los demás países, pero en vez de moverlos donde estaba el _Abc_, colócalos abajo, en la parte de marcas sobre la opción de ` Texto `.
 
 <img src="../images/08/32.jpg"  >
 
-Al mover este dato la representación de este no es tan amigable, por lo cual es necesario hacer la transformación de esta información a tablas de texto para ellos nos iremos a la opción mostrar y seleccionaremos la opción tabla de texto:
+Al mover este dato, su representación no es tan amigable, por lo cual es necesario transformar esta información a tablas de texto; para ello, ve a la opción `mostrar` y selecciona la opción `Tabla de texto`.
 
 <img src="../images/08/33.jpg"  >
 
-El resultado de seleccionar la tabla de texto es el siguiente:
+El resultado es el siguiente.
 
 <img src="../images/08/34.jpg"  >
 
-Teniendo esta configuración realizada, podríamos incluir los demás datos en la parte de nombre Valores de Medida hay colocaremos el resto arrastrándolos.
+Teniendo esta configuración realizada, puedes incluir los demás datos en la parte de nombre `Valores de Medida`, ahí coloca el resto arrastrándolos.
 
 <img src="../images/08/35.jpg"  >
 
-El resultado que debemos de visualizar es el siguiente:
+El resultado es el siguiente.
 
 <img src="../images/08/36.jpg"  >
 
-Aquí la reflexión imaginemos que son alrededor de 30 países, estarlos agregando uno por uno sería un trabajo muy estresante y una inversión de tiempo horrible.
+Imagina que son alrededor de 30 países, agregarlos uno por uno sería un trabajo muy estresante y una inefectiva inversión de tiempo.
 
-Para ese tipo de eventualidades y manejo de la información Tableau tiene una herramienta que se llama pívot , algo parece sido a Excel pero este en lo particular esta para el tema de desarrollo de datos o estructuración de datos.
-Para utilizar esta herramienta nos iremos a nuestras fuentes de datos y seleccionaremos nuestra fuente de nombre DATA EXPORTACIONES.
+Para ese tipo de eventualidades y manejo de la información, Tableau tiene una herramienta que se llama pívot, parecido a Excel, pero especializado en el tema de desarrollo o estructuración de datos.
+
+Para utilizar esta herramienta, ve a las fuentes de datos y selecciona la fuente de nombre `DATA EXPORTACIONES`.
 
 <img src="../images/08/37.jpg"  >
 
-Dentro de nuestros datos de exportaciones seleccionaremos las ventas iniciando en E.E.U.U y finalizando en Canadá , cada una la sombrearemos y daremos clic derecho para seleccionar en el menú que nos aparecerá la opción pivotar ( Crear tabla dinámica). 
+Dentro los datos de exportaciones, selecciona las ventas, iniciando en E.E.U.U y finalizando en Canadá; sombrea cada una y da clic derecho para seleccionar la opción pivotar (crear tabla dinámica) en el menú que aparecerá. 
 
 <img src="../images/08/38.jpg"  >
 
 
-Realizado lo anterior nuestra data tendrá cambios como se muestra en la siguiente imagen:
+Realizado lo anterior, la data tendrá cambios como se muestra en la siguiente imagen.
 
 <img src="../images/08/39.jpg"  >
 
-Si observamos bien, nuestros datos se simplifican y nos crea dos campos, el primer campo el nombre de las ventas por país y el segundo campo el número de ventas.
+Los datos se simplifican y se crean dos campos: el primero con el nombre de las ventas por país y el segundo con el número de ventas.
 
+Si bien, los datos así son funcionales, puedes organizar la data de manera más flexible que pueda ayudar a simplificar y transparentar lo que quieres comunicar en el _storytelling_.
 
-Si bien los datos así son funcionales podemos organizar nuestra data de una manera más flexible que nos pueda ayudar a simplificar y transparentar lo que nosotros queremos comunicar en nuestro storytelling.
-Nosotros de nuestra nueva columna, solo necesitamos extraer los países para poder crear una estructuración más idónea y nos ayude a estructura la información correctamente.
-Para ellos nos vamos a posicionar sobre esa columna y daremos clic sobre la pestaña de opciones para que nos despliegue las herramientas de división.
+De la nueva columna, solo necesitas extraer los países para crear una estructura más idónea que ayude a organizar la información correctamente.
+
+Para ello, posiciónate sobre esa columna y da clic sobre la pestaña de opciones para que despliegue las herramientas de división.
 
 <img src="../images/08/40.jpg"  >
 
-Realizado lo anterior observemos que nos crea en automático una columna con los países que tenemos en nuestro campo pívot
+Realizado lo anterior, observa que crea en automático una columna con los países que tienes en el campo pívot.
 
 <img src="../images/08/41.jpg"  >
 
 
-Ahora renombremos esta columna y nuestra pívot, ocultamos esa columna.
+Luego, renombra esta columna y la pívot y oculta esa columna.
 
 <img src="../images/08/42.jpg"  >
 
-Realizado el ajuste anterior nuestra hoja nos aparecerá todo en rojo, no te asustes, esto es porque recuerda que creamos una medida. 
+Realizado el ajuste anterior, la hoja aparecerá toda en rojo, esto es porque que creamos una medida. 
 
 <img src="../images/08/43.jpg"  >
 
-Ya con la medida podemos realizar la siguiente configuración para nuestro reporte.
+Ya con la medida, puedes realizar la siguiente configuración para el reporte.
 
 <img src="../images/08/44.jpg"  >
 
-Nuestra visualización quedara de la siguiente manera:
+La visualización quedará de la siguiente manera.
 
 <img src="../images/08/45.jpg"  >
 
-Para nosotros crear una medida en nuestros campos es necesario posicionarnos sobre el modelo de datos y a continuación sobre el campo donde deseamos agregar la medida.
-Para este ejemplo crearemos una medida al campo Cantidad KG vamos a crear una medida en la cual los kilogramos los convertiremos a toneladas de la siguiente manera.
+Para crear una medida en los campos, es necesario posicionarte sobre el modelo de datos y, a continuación, sobre el campo donde deseas agregar la medida.
 
-Nos posicionamos sobre nuestros datos de Data Exportación – campos Cantidad KG, daremos clic derecho y seleccionaremos crear una medida.
+Para este ejemplo, crea una medida al campo `Cantidad KG` en la cual los kilogramos los convierte a toneladas de la siguiente manera.
+
+Posiciónate sobre los datos de `Data Exportación – campos Cantidad KG`, da clic derecho y selecciona `Crear una medida`.
+
 
 <img src="../images/08/46.jpg"  >
 
+Ahora que ya sabes crear filtros, crea medidas con la información y juega con las tarjetas que puedes desarrollar para la Dashboard.
 
-Ahora que ya sabes crear filtros, nos tocara crear medidas con nuestra información y jugar con las tarjetas que podemos desarrollar para nuestra Dashboard.
+Para ello, en esta primera etapa, necesitas colocar el campo de clientes en la parte de columnas y el campo de kilogramos colócalo sobre `Cliente` para obtener la siguiente visualización.
 
-Para ellos en esta primera etapa necesitamos colocar el campo de clientes en la parte de columnas y el acampo de kilogramos lo colocaremos sobre cliente para obtener la siguiente visualización.
 
 <img src="../images/08/47.jpg"  >
 
-Cuando demos clic sobre crear campo calculado nos aparecerá la siguiente pantalla.
+Cuando des clic sobre `Crear campo calculado` aparecerá la siguiente pantalla.
 
 <img src="../images/08/48.jpg"  >
 
-Aquí es donde colocaremos las instrucciones para realizar dicha acción, iniciaremos con nombrar este campo calculado como Cantidad (Tonelada)
+Aquí, coloca las instrucciones para realizar dicha acción, inicia con nombrar este campo como `Cantidad (Tonelada)`.
 
 <img src="../images/08/49.jpg"  >
 
-Ya con el nombre ahora en la parte de las operaciones colocaremos lo siguiente, una tonelada es igual a 1000 KG por lo tanto tenemos que dividir nuestro campo Cantidad (KG) entre mil.
+Ahora, en la parte de las operaciones, coloca lo siguiente: una tonelada es igual a un Kg; por lo tanto, tienes que dividir el campo `Cantidad (KG) ` entre mil.
 
 <img src="../images/08/50.jpg"  >
 
-Aceptamos y ya nos aparecerá este nuevo campo en nuestro modelo. Movemos el campo hacia texto y miremos que sucede.
+Acéptalo y aparecerá este nuevo campo en el modelo. Mueve el campo hacia texto y mira qué sucede.
 
 <img src="../images/08/51.jpg"  >
 
-Nos mostrara nuestra tarjeta aparte de los KG también aparecen las Toneladas:
+Mostrará la tarjeta aparte de los Kg, también aparecerán las toneladas.
 
 <img src="../images/08/52.jpg"  >
 
