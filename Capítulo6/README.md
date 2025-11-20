@@ -20,34 +20,34 @@ Al finalizar la práctica, serás capaz de:
 
 ### Tarea 1. Configuración inicial
 
-Vamos a explorar el tema programación en otra herramienta que es REstudio combinada con Phyton, para ellos abriremos nuestro entorno de REstudio y crearemos un archivo Script como se muestra en la imagen, este archivo nos ayudara a traducir o interpretar los comando que tecleemos.
+En esta tarea, explorarás el tema de programación en la herramienta  REstudio combinada con Phyton. Para ello, abre el entorno de REstudio y crea un archivo Script como se muestra en la imagen. Este archivo ayudará a traducir o interpretar los comando que teclees.
 
 <img src="../images/06/01.jpg">
 
-Creada nuestra hoja de Script estamos listos para iniciar con nuestras primeras instrucciones de  funciones de redondeo, por lo cual ahí teclear cada una de las siguientes instrucciones :
+Creada la hoja de Script, puedes iniciar con las primeras instrucciones de  funciones de redondeo; para ello, teclea cada una de las siguientes instrucciones.
 
 <img src="../images/06/02.jpg">
 
-Creada nuestra hoja de Script estamos listos para iniciar con nuestras primeras instrucciones de  funciones de redondeo, por lo cual ahí teclear cada una de las siguientes instrucciones :
+Ahora, teclea cada una de las siguientes  instrucciones.
 
 <img src="../images/06/03.jpg">
 
-Creada nuestra hoja de Script estamos listos para iniciar con nuestras primeras instrucciones de  funciones de redondeo, por lo cual ahí teclear cada una de las siguientes instrucciones :
+Después, teclea cada una de las siguientes instrucciones.
 
 <img src="../images/06/04.jpg">
 
-Creada nuestra hoja de Script estamos listos para iniciar con nuestras primeras instrucciones de  funciones de redondeo, por lo cual ahí teclear cada una de las siguientes instrucciones :
+De nuevo, teclea cada una de las siguientes instrucciones.
 
 <img src="../images/06/05.jpg">
 
-Ahora probemos las instrucciones para la asignación variables y definición de funciones:
+Ahora, prueba las instruccionespara la asignación variables y definición de funciones.
 
 <img src="../images/06/06.jpg">
 
-Ahora probemos las instrucciones para la asignación variables y definición de funciones:
+Ahora, prueba las instruccionespara la asignación variables y definición de funciones.
 
 <img src="../images/06/07.jpg">
 
-Ahora probemos las instrucciones para la asignación variables y definición de funciones:
+Ahora, prueba las instruccionespara la asignación variables y definición de funciones.
 
 <img src="../images/06/08.jpg">
