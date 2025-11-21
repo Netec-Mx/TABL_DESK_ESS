@@ -514,155 +514,158 @@ Para ello, haz clic derecho sobre el segundo campo calculado `Monto Total`, sele
 
 <img src="../images/08/105.jpg"  >
 
-Vamos a irnos a nuestro segundo campo agregado de monto total y daremos clic sobre él , seleccionaremos en el menú la opción que dice discreto y observemos.
+Ve al segundo campo agregado `Monto Total` y haz clic sobre él. En el menú, selecciona la opción `Discreto` y observa el resultado.
+
 <img src="../images/08/106.jpg"  >
 
-Ahora solo es cuestión de formatear la información del porcentaje y dejarlo solo con 2 cifras para ellos vamos a Suma Monto Total de filas y damos clic, después formatear y colocaremos lo siguiente:
+Luego, formatea la información del porcentaje para que muestre solo cifras. Para ello, haz clic en `Suma Monto Total` en las filas, selecciona `Formatear` y aplica el formato deseado.
 
 <img src="../images/08/107.jpg"  >
 
-Ahora solo coloquemos nuestro grafico de forma Descendente y el resultado es :
+Después, ordena el gráfico en forma descendente para mejorar la visualización.
 
 <img src="../images/08/108.jpg"  >
 
-Ahora vamos a personalizar los colores de nuestro grafico para ellos vamos a arrastrar el campo de monto total a la parte de colores y miremos cómo se comporta:
+Personaliza los colores del gráfico: arrastra el campo `Monto Total` a la sección de colores y observa cómo se comporta.
 
 <img src="../images/08/109.jpg"  >
 
-Vamos a personalizar ese azul y lo cambiaremos por otro color desde la paleta que se creó a la derecha de nuestro desarrollo, miremos el resultado.
+Finalmente, cambia el color azul por otro desde la paleta que aparece en el panel derecho y revisa el resultado.
 
 <img src="../images/08/110.jpg"  >
 
-Ya que creamos nuestra grafica de barras de total y porcentaje ahora vamos a crear una nueva hoja de trabajo donde le colocaremos por título Filtro de Donas.
+Una vez creadas las gráficas de barras (total y porcentaje), crea una nueva hoja de trabajo y asígnale el título `Filtro de Donas`.
 
 <img src="../images/08/111.jpg"  >
 
-La primera acción para realizar es que vamos a arrastrar el dato de País a la herramienta colores:
+Primero, arrastra el campo `País` a la herramienta de colores.
 
 <img src="../images/08/112.jpg"  >
 
-Como resultado nos aparece nuestro dato de la siguiente manera:
+Como resultado, los datos se mostrarán con una diferenciación por color.
 
 <img src="../images/08/113.jpg"  >
 
-Ahora en la parte de marcas vamos a dar clic en la lista desplegable y seleccionaremos Circular.
+Luego, en la sección `Marcas`, haz clic en la lista desplegable y selecciona la opción `Circular`.
 
 <img src="../images/08/114.jpg"  >
 
 
-Al realizar la acción pasada el resultado que nos mostrara es el siguiente:
+Al realizar esta acción, el gráfico cambiará a formato circular.
 
 <img src="../images/08/115.jpg"  >
 
-A continuación, vamos a iniciar a armar nuestro gráfico y como segundo dato vamos arrastra Cantidad (Toneladas) a etiquetas:
+A continuación, comienza a armar el gráfico: arrastra el campo `Cantidad (Toneladas)` a la opción `Etiquetas`.
 
 <img src="../images/08/116.jpg"  >
 
-Ahora vamos a crear nuestro Placeholder de la siguiente manera en la parte de columnas daremos doble clic y colocaremos un 1 y de nuevo daremos doble clic y colocaremos 2, esta acción formateara nuestra grafico de la siguiente manera:
+Después, crea el Placeholder: en la parte de columnas, haz doble clic y escribe una coma (,), luego haz doble clic nuevamente y coloca una `y`. Esta acción formateará el gráfico de manera adecuada.
 
 <img src="../images/08/117.jpg"  >
 
-Ahora En el valor 1 daremos clic izquierdo y en el menú crearemos esta acción en una dimensión lo mismo para el valor 2.
+En el valor 1, haz clic izquierdo y, en el menú, convierte cada uno en una dimensión; realiza lo mismo para valor 2.
 
 <img src="../images/08/118.jpg"  >
 
-El resultado al dar clic sobre dimensión en ambos valores de las columnas , nuestra grafica de pastel quedara de la siguiente manera:
+El resultado, tras aplicar la opción `Dimensión` en ambos valores, será una gráfica de pastel correctamente configurada.
 
 <img src="../images/08/119.jpg"  >
 
-Ahora personalizaremos la vista, para ellos daremos clic la opción de vista y cambiaremos de Estándar a Vista Completa:
+Para mejorar la visualización, haz clic en la opción `Vista` y cambia de `Estándar` a `Vista completa`. 
 
 <img src="../images/08/120.jpg"  >
 
-Esto nos ayudara a crecer nuestra área de trabajo y daremos una mejor visualización y presentación de nuestra gráfica:
+Esto ampliará el área de trabajo y dará una mejor presentación.
 
 <img src="../images/08/121.jpg"  >
 
-Al crear este tipo de formateo, Observemos que la parte de marcas se nos agregaron la configuración de nuestras graficas de pastel de manera independiente:
+Finalmente, observa que en la sección `Marcas` se han agregado configuraciones independientes para las gráficas de pastel, lo que permite personalizar cada una.
 
 <img src="../images/08/122.jpg"  >
 
-Vamos a iniciar la personalización e iniciaremos con el grafico Uno, en este vamos a crecer la gráfica al segundo espacio, iniciaremos dando clic en tamaño como muestro en la imagen:
+Comienza la personalización con el Gráfico Uno: amplía su tamaño al segundo espacio haciendo clic en la opción `Tamaño`, como se muestra en la imagen.
 
 <img src="../images/08/123.jpg"  >
 
-Ahora vamos a realizar algunos ajustes en el grafico Dos, daremos clic sobre él y quitaremos el dato de País y nos quedara un círculo en gris y con el Total de Toneladas.
+Luego, ajusta el Gráfico Dos: haz clic sobre él y elimina el campo `País`, de modo que quede un círculo gris con el total de toneladas.
 
 <img src="../images/08/124.jpg"  >
 
-Ahora daremos clic izquierdo sobre el valor dos en columnas y seleccionaremos Eje Doble:
+Después, haz clic izquierdo sobre el segundo valor en columnas y selecciona `Eje doble`.
 
 <img src="../images/08/125.jpg"  >
 
-Seguiremos personalizando el valor Dos , vamos a seleccionar dentro  de marcas sobre el valor dos un color y seleccionaremos el color blanco para obtener este resultado:
+Continúa personalizando el segundo valor: en la sección `Marcas`, asigna el color blanco para obtener el resultado deseado.
 
 <img src="../images/08/126.png"  >
 
-Ahora personalicemos nuestro Dato Uno (Grafico Uno) vamos a agregar las etiquetas de país en sus valores de la siguiente manera:
+Ahora, personaliza el Gráfico Uno agregando las etiquetas de país en sus valores.
 
 <img src="../images/08/127.jpg"  >
 
-Nosotros podemos también formatear que en vez de aparecer el número de toneladas nos represente el dato el porcentaje del total de toneladas por país y esto lo realizaremos de la siguiente manera, daremos clic izquierdo en Cantidad (Toneladas) , luego daremos en calculo tablas rápido y seleccionamos la opción Porcentaje de Total nos mostrara la información de la siguiente manera:
+Además, puedes formatear para que, en lugar de mostrar el número de toneladas, se represente el porcentaje del total por país. Para ello, haz clic izquierdo en `Cantidad (Toneladas)`, selecciona `Cálculo de tablas rápido` y elige `Porcentaje del total`.
 
 <img src="../images/08/128.jpg"  >
 
-Coloquemos más datos informativos en esta gráfica, arrastremos de nuevo Cantidad (Toneladas) a etiquetas y observemos la representación de nuestros valores a nivel porcentaje y numéricamente el valor de las toneladas.
+Para enriquecer la visualización, arrastra nuevamente `Cantidad (Toneladas)` a etiquetas, mostrando tanto el porcentaje como el valor numérico.
 
 <img src="../images/08/129.jpg"  >
 
-Ahora vamos a quitar los encabezados de nuestra tabla de trabajo que nos aparecen arriba y abajo (1,2), para ellos daremos clic derecho en el encabezado 1 y seleccionaremos la opción Mostrar encabezado esto para que desactive estos títulos:
+Luego, elimina los encabezados superior e inferior (,): haz clic derecho sobre ellos y selecciona `Mostrar encabezado` para desactivarlos.
 
 <img src="../images/08/130.jpg"  >
 
-Ahora quitaremos esa línea divisora, para ellos daremos clic izquierdo opción formatear y seleccionaremos la opción línea, dentro de esta opción colocaremos como Ninguna  , Líneas Cuadricula y Línea Cero.
+Quita también la línea divisora: haz clic en `Formatear`, selecciona `Línea` y configura `Ninguna` en Líneas de cuadrícula y Línea cero.
 
 <img src="../images/08/131.jpg"  >
 
-Creadas estas gráficas y nuestras tablas estamos listos para crear nuestro primer Dashboard para estos datos, para ellos vamos a dar clic en crear un dashboar en la siguiente opción:
+Con las gráficas y tablas listas, crea el primer Dashboard: haz clic en `Crear Dashboard`.
 
 <img src="../images/08/132.jpg"  >
 
-Creado nuestra Dashboard lo primero que tenemos que realizar es configurar la pantalla de visualización lo recomendable es coloca una visualización automática, esto para que se ajuste al monitor de cada usuario.
+Una vez creado, configura la visualización en modo automático para que se ajuste al monitor de cada usuario.
 
 <img src="../images/08/133.png"  >
 
-Ahora configurada nuestra visualización lo primero que arrastraremos será nuestra tabla de Toneladas por Cliente y daremos clic sobre su fecha de herramientas y configuraremos su visualización a vista completa de la siguiente manera:
+Ahora que la visualización está configurada, arrastra la tabla `Toneladas por Cliente` y, en su menú de herramientas, ajusta la vista a `Vista completa`.
 
 <img src="../images/08/134.jpg"  >
 
-Ahora arrastremos nuestra grafica de barras de Toneladas de Frutas por cliente y está la colocaremos en la parte inferior como se muestra en la siguiente imagen:
+Luego, arrastra la gráfica de barras `Toneladas de frutas por cliente` y colócala en la parte inferior, como se muestra en la imagen.
 
 <img src="../images/08/135.jpg"  >
 
 
-Ahora arrastraremos nuestra grafica de nombre Monto total y porcentaje país y este lo colocaremos también en la parte inferior, solo que al momento de soltarlo será necesario que demos un ajuste para poder representar bien nuestros datos que componen este Dashboard.
+Después, agrega la gráfica `Monto total y porcentaje por país` en la parte inferior también. Al soltarla, realiza los ajustes necesarios para que los datos se representen correctamente en el Dashboard.
 
 <img src="../images/08/136.jpg"  >
 
-Ya tenemos nuestros 3 componentes de nuestro Dashboard pero es necesario quitar los títulos de los 2 últimos componentes para ellos vamos a dar clic sobre la pestaña de opciones y desactivaremos los títulos como se muestra en la imagen:
+Con los tres componentes ya ubicados, elimina los títulos de los últimos dos elementos: haz clic en la pestaña de opciones y desactiva la opción `Mostrar título`.
 
 <img src="../images/08/137.jpg"  >
 
-Ahora agregaremos nuestro filtro de donas este lo arrastraremos a la derecha de nuestro componente Monto total y porcentaje como se muestra en la imagen, recordemos quitar el título :
+A continuación, agrega el filtro de donas y colócalo a la derecha del componente `Monto total y porcentaje`, tal como se muestra en la imagen. Recuerda también quitar su título.
 
 <img src="../images/08/138.jpg"  >
 
-Para dar una mejor apariencia a nuestro dashboard es necesario validar que el encuadre de nuestros componentes sea Vista Completa como se muestra en la imagen: 
+Para mejorar la apariencia del Dashboard, valida que todos los componentes estén configurados en `Vista completa`.
 
 <img src="../images/08/139.jpg"  >
 
-Validado lo anterior ahora nos tocará agregar algunos filtros importantes para esta implementación,  primer filtro será de clientes y este lo generaremos de nuestra tabla de Toneladas Clientes directo en las opciones desplegables como se muestra en la siguiente imagen:
+Una vez validado, agrega los filtros importantes:
 
 <img src="../images/08/140.jpg"  >
 
-Ahora agregaremos un filtro que contenga las frutas y este filtro lo generaremos desde nuestro componente Tonelada de frutas por cliente como lo realizamos anterior mente solo que ahora en automático lo colocara debajo de clientes:
+Filtro de Clientes: créalo desde la tabla `Toneladas por Cliente` utilizando las opciones desplegables.
+Filtro de frutas: créalo desde la gráfica `Toneladas de frutas por Cliente`, igual que el anterior. Este se colocará automáticamente debajo del filtro de clientes.
+
 
 <img src="../images/08/141.jpg"  >
 
-Al aplicar el filtro el resultado es el siguiente:
+Observa el resultado al aplicar los filtros. 
 
 <img src="../images/08/142.jpg"  >
 
-Si miramos bien esta manera de colocar los filtros no es tan conveniente, por lo tanto, editaremos el filtro de clientes y lo personalizaremos desde su pestaña de ajustes: 
+Si la disposición no es conveniente, edita el filtro de clientes desde su pestaña de ajustes para personalizarlo. 
 
 <img src="../images/08/143.jpg"  >
